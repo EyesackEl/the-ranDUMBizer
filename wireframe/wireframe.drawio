@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rbSomKwgG7hW-OHiVWhK" name="Home-Page">
-        <mxGraphModel dx="1444" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="532" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -40,7 +40,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Active-List" id="at9NM1hNaozIzuKnAE3e">
-        <mxGraphModel dx="642" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="635" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="_-xjaoVLMFP9AtiPyJA7-0"/>
                 <mxCell id="_-xjaoVLMFP9AtiPyJA7-1" parent="_-xjaoVLMFP9AtiPyJA7-0"/>
@@ -123,7 +123,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Shared-Lists" id="mLb_yuZnxEXump8tSiEA">
-        <mxGraphModel dx="1444" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="635" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="edImd8uwS2qa-O-Zorm3-0"/>
                 <mxCell id="edImd8uwS2qa-O-Zorm3-1" parent="edImd8uwS2qa-O-Zorm3-0"/>
