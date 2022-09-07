@@ -1,174 +1,174 @@
 <mxfile host="65bd71144e">
     <diagram id="rbSomKwgG7hW-OHiVWhK" name="Home-Page">
-        <mxGraphModel dx="1399" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="532" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" vertex="1" parent="1">
+                <mxCell id="2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" parent="1" vertex="1">
                     <mxGeometry width="850" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" vertex="1" parent="2">
+                <mxCell id="3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" parent="2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="70" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="2">
+                <mxCell id="4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="140" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" vertex="1" parent="2">
+                <mxCell id="5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" parent="2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="210" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="2">
+                <mxCell id="6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="290" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="2">
+                <mxCell id="27" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="2" vertex="1">
                     <mxGeometry x="370" y="10" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="2">
+                <mxCell id="28" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="2" vertex="1">
                     <mxGeometry x="750" y="10" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="RANDOM NUMBER GENERATOR W/ USER INPUT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="29" value="RANDOM NUMBER GENERATOR W/ USER INPUT" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="130" width="560" height="420" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="Active-List" id="at9NM1hNaozIzuKnAE3e">
-        <mxGraphModel dx="1399" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="635" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="_-xjaoVLMFP9AtiPyJA7-0"/>
                 <mxCell id="_-xjaoVLMFP9AtiPyJA7-1" parent="_-xjaoVLMFP9AtiPyJA7-0"/>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-1">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" parent="_-xjaoVLMFP9AtiPyJA7-1" vertex="1">
                     <mxGeometry width="850" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-2">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" parent="_-xjaoVLMFP9AtiPyJA7-2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="70" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-2">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="_-xjaoVLMFP9AtiPyJA7-2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="140" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-2">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" parent="_-xjaoVLMFP9AtiPyJA7-2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="210" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-2">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="_-xjaoVLMFP9AtiPyJA7-2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="290" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-7" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-2">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-7" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="_-xjaoVLMFP9AtiPyJA7-2" vertex="1">
                     <mxGeometry x="370" y="10" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="_-xjaoVLMFP9AtiPyJA7-8" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="_-xjaoVLMFP9AtiPyJA7-2">
+                <mxCell id="_-xjaoVLMFP9AtiPyJA7-8" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="_-xjaoVLMFP9AtiPyJA7-2" vertex="1">
                     <mxGeometry x="750" y="10" width="90" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="My-Lists" id="VuMbqjfBf2fe_57zpmlz">
-        <mxGraphModel dx="1399" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1444" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="haoHxf4dzqI1Nyt3eCEi-0"/>
                 <mxCell id="haoHxf4dzqI1Nyt3eCEi-1" parent="haoHxf4dzqI1Nyt3eCEi-0"/>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-1">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" parent="haoHxf4dzqI1Nyt3eCEi-1" vertex="1">
                     <mxGeometry width="850" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-2">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" parent="haoHxf4dzqI1Nyt3eCEi-2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="70" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-2">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="haoHxf4dzqI1Nyt3eCEi-2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="140" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-2">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" parent="haoHxf4dzqI1Nyt3eCEi-2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="210" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-2">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="haoHxf4dzqI1Nyt3eCEi-2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="290" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-7" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-2">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-7" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="haoHxf4dzqI1Nyt3eCEi-2" vertex="1">
                     <mxGeometry x="370" y="10" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="haoHxf4dzqI1Nyt3eCEi-8" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-2">
+                <mxCell id="haoHxf4dzqI1Nyt3eCEi-8" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="haoHxf4dzqI1Nyt3eCEi-2" vertex="1">
                     <mxGeometry x="750" y="10" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="9cYl50GAKnQ4gcS86H0U-1" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Add a List !&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-1">
+                <mxCell id="9cYl50GAKnQ4gcS86H0U-1" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Add a List !&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="haoHxf4dzqI1Nyt3eCEi-1" vertex="1">
                     <mxGeometry x="160" y="110" width="520" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="YZ5CzrxYfB5ff2jb1CUr-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-1">
+                <mxCell id="YZ5CzrxYfB5ff2jb1CUr-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="haoHxf4dzqI1Nyt3eCEi-1" vertex="1">
                     <mxGeometry x="80" y="230" width="680" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="YZ5CzrxYfB5ff2jb1CUr-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="haoHxf4dzqI1Nyt3eCEi-1">
+                <mxCell id="YZ5CzrxYfB5ff2jb1CUr-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="haoHxf4dzqI1Nyt3eCEi-1" vertex="1">
                     <mxGeometry x="80" y="320" width="680" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="Shared-Lists" id="mLb_yuZnxEXump8tSiEA">
-        <mxGraphModel dx="1399" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="635" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="edImd8uwS2qa-O-Zorm3-0"/>
                 <mxCell id="edImd8uwS2qa-O-Zorm3-1" parent="edImd8uwS2qa-O-Zorm3-0"/>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-1">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-2" value="TITLE" style="html=1;shadow=0;dashed=0;fillColor=#343A40;strokeColor=none;fontSize=16;fontColor=#ffffff;align=left;spacing=15;" parent="edImd8uwS2qa-O-Zorm3-1" vertex="1">
                     <mxGeometry width="850" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-2">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-3" value="Home" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#ffffff;align=center;" parent="edImd8uwS2qa-O-Zorm3-2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="70" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-2">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-4" value="My Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="edImd8uwS2qa-O-Zorm3-2" vertex="1">
                     <mxGeometry width="70" height="40" relative="1" as="geometry">
                         <mxPoint x="140" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-2">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-5" value="Pricing" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;spacingRight=0;" parent="edImd8uwS2qa-O-Zorm3-2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="210" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-2">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-6" value="About" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="edImd8uwS2qa-O-Zorm3-2" vertex="1">
                     <mxGeometry width="80" height="40" relative="1" as="geometry">
                         <mxPoint x="290" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-7" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-2">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-7" value="Shared Lists" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#9A9DA0;align=center;" parent="edImd8uwS2qa-O-Zorm3-2" vertex="1">
                     <mxGeometry x="370" y="10" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="edImd8uwS2qa-O-Zorm3-8" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-2">
+                <mxCell id="edImd8uwS2qa-O-Zorm3-8" value="Login" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="edImd8uwS2qa-O-Zorm3-2" vertex="1">
                     <mxGeometry x="750" y="10" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-1">
+                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="edImd8uwS2qa-O-Zorm3-1" vertex="1">
                     <mxGeometry x="80" y="230" width="680" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-1">
+                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants! - Update&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="edImd8uwS2qa-O-Zorm3-1" vertex="1">
                     <mxGeometry x="80" y="320" width="680" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-1">
+                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants! - Update_2&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="edImd8uwS2qa-O-Zorm3-1" vertex="1">
                     <mxGeometry x="80" y="410" width="680" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-1">
+                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants! - Update_REDUX&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="edImd8uwS2qa-O-Zorm3-1" vertex="1">
                     <mxGeometry x="80" y="500" width="680" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants!&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" vertex="1" parent="edImd8uwS2qa-O-Zorm3-1">
+                <mxCell id="IxJ_flrQ4pYqJCdzRWqX-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;My Favorite Restaurants! - Update_REDUX_&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;By: Lernantino&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeColor=#009900;align=left;" parent="edImd8uwS2qa-O-Zorm3-1" vertex="1">
                     <mxGeometry x="80" y="590" width="680" height="60" as="geometry"/>
                 </mxCell>
             </root>
@@ -212,31 +212,31 @@
         </mxGraphModel>
     </diagram>
     <diagram id="H7uO0rLCFXiC7fwi1uk1" name="List-Form">
-        <mxGraphModel dx="1399" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="419" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="155v7j1htLWhQcULCjxJ-0"/>
                 <mxCell id="155v7j1htLWhQcULCjxJ-1" parent="155v7j1htLWhQcULCjxJ-0"/>
                 <mxCell id="155v7j1htLWhQcULCjxJ-3" value="Example input placeholder" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" vertex="1" parent="155v7j1htLWhQcULCjxJ-1">
                     <mxGeometry width="480" height="30" relative="1" as="geometry">
-                        <mxPoint y="-910" as="offset"/>
+                        <mxPoint x="160" y="-920" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="155v7j1htLWhQcULCjxJ-5" value="Another input placeholder" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" vertex="1" parent="155v7j1htLWhQcULCjxJ-1">
                     <mxGeometry width="480" height="30" relative="1" as="geometry">
-                        <mxPoint y="-830" as="offset"/>
+                        <mxPoint x="160" y="-840" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="155v7j1htLWhQcULCjxJ-6" value="&lt;font style=&quot;font-size: 11px&quot;&gt;List Name&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;strokeColor=none;" vertex="1" parent="155v7j1htLWhQcULCjxJ-1">
-                    <mxGeometry y="-940" width="130" height="20" as="geometry"/>
+                    <mxGeometry x="160" y="-950" width="130" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="155v7j1htLWhQcULCjxJ-7" value="Finalize List!" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="155v7j1htLWhQcULCjxJ-1">
-                    <mxGeometry x="390" y="-720" width="90" height="40" as="geometry"/>
+                    <mxGeometry x="550" y="-730" width="90" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="155v7j1htLWhQcULCjxJ-9" value="&lt;font style=&quot;font-size: 11px&quot;&gt;List Item&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;strokeColor=none;" vertex="1" parent="155v7j1htLWhQcULCjxJ-1">
-                    <mxGeometry y="-860" width="130" height="20" as="geometry"/>
+                    <mxGeometry x="160" y="-870" width="130" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="155v7j1htLWhQcULCjxJ-10" value="Add Another LIst Item!" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#FFBC26;strokeWidth=1;fillColor=none;fontColor=#FFBC26;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="155v7j1htLWhQcULCjxJ-1">
-                    <mxGeometry x="5" y="-790" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="165" y="-800" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
