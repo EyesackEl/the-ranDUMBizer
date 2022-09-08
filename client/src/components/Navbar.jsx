@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { UPDATE_LOGGED_IN } from '../utils/actions';
+import { useAppContext } from '../utils/GlobalState';
 
-export default function Navbar({ loggedIn, setLoggedIn }) {
+export default function Navbar({ loggedIn }) {
   const [burgerState, setBurgerState] = useState(false);
+  // const dispatch = useDispatch();
+  const [state, dispatch] = useAppContext();
 
   return (
     <nav
@@ -10,7 +15,7 @@ export default function Navbar({ loggedIn, setLoggedIn }) {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
+        <a className="navbar-item" href="/">
           <img src="./DICE.jpg" width="50" height="5000" />
         </a>
 
@@ -34,11 +39,9 @@ export default function Navbar({ loggedIn, setLoggedIn }) {
         className={!burgerState ? 'navbar-menu' : 'navbar-menu is-active'}
       >
         <div className="navbar-start">
-          <a className="navbar-item" href="/">
-            Home
-          </a>
-
           <a className="navbar-item">Public Lists</a>
+
+          {loggedIn ? <a className="navbar-item">My Lists</a> : <div />}
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">Wonder what's over here?</a>
@@ -48,21 +51,44 @@ export default function Navbar({ loggedIn, setLoggedIn }) {
               <a className="navbar-item">Jobs</a>
               <a className="navbar-item">Contact</a>
               <hr className="navbar-divider" />
-              <a className="navbar-item">Report an issue</a>
+              <a className="navbar-item" href="/waah">
+                Report an issue
+              </a>
             </div>
           </div>
         </div>
 
         <div className="navbar-end">
           <div className="navbar-item">
-            {loggedIn ? (
-              <div />
+            {state.isLoggedIn ? (
+              <div className="buttons">
+                <a
+                  className="button is-danger"
+                  onClick={() => {
+                    dispatch({
+                      type: UPDATE_LOGGED_IN,
+                      isLoggedIn: false,
+                    });
+                  }}
+                >
+                  Log Out
+                </a>
+              </div>
             ) : (
               <div className="buttons">
-                <a className="button is-primary" href="/signup">
+                <a className="button is-primary">
                   <strong>Sign up</strong>
                 </a>
-                <a className="button is-light" href="/login">
+                <a
+                  className="button is-light"
+                  onClick={() => {
+                    dispatch({
+                      type: UPDATE_LOGGED_IN,
+                      isLoggedIn: true,
+                    });
+                  }}
+                  // href="/login"
+                >
                   Log in
                 </a>
               </div>

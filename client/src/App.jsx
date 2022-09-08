@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
+import { AppProvider } from './utils/GlobalState';
+// import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import Container from './components/Container';
 
 // const client = new ApolloClient({
@@ -11,9 +11,12 @@ import Container from './components/Container';
 function App() {
   return (
     // <ApolloProvider client={client}>
+    <AppProvider>
       <Container />
+    </AppProvider>
+
     // </ApolloProvider>
   );
-};
+}
 
 export default App;

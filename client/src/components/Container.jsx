@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useAppContext } from '../utils/GlobalState';
 
 import NavBar from './Navbar';
 // import Footer from './Footer';
@@ -27,17 +28,19 @@ export default function Container() {
   //   };
 
   //   const handlePageChange = (page) => setCurrentPage(page);
+  const state = useAppContext();
 
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(state.isLoggedIn);
 
   return (
     <Router>
-      <NavBar loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
+      <NavBar loggedIn={loggedIn} />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/waah" element={<Problem />} />
         </Routes>
       </main>
       {/* <Footer /> */}
