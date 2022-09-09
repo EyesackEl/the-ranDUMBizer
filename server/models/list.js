@@ -8,6 +8,10 @@ const listSchema = new Schema({
     trim: true,
     public: true
   },
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User'
+  },
   listItems: [
     {
       type: String,
