@@ -43,10 +43,11 @@ export default function Login() {
   return (
     <div className='content box'>
       <h1 className='has-text-centered block box'> Login! </h1>
-      <form className='columns is-centered' onSubmit={handleFormSubmit}>
-        <div className='column is-1' />
 
-        <div className='column is-half'>
+      <form className='columns is-centered' onSubmit={handleFormSubmit}>
+        <div className='column is-1-tablet is-2-desktop' />
+
+        <div className='column'>
           <div className='box block'>
             <div class='field'>
               <label class='label'>Username</label>
@@ -77,6 +78,9 @@ export default function Login() {
             </div>
           </div>
         </div>
+
+        <div className='column is-0 is-1-desktop' />
+
         <div className='mt-5 column is-vcentered has-text-centered'>
           <button className='button is-medium is-primary' type='submit'>
             Login
@@ -86,7 +90,8 @@ export default function Login() {
             Make an Account!
           </a>
         </div>
-        <div className='column is-1' />
+
+        <div className='column is-2-desktop is-1-tablet' />
       </form>
     </div>
   );
