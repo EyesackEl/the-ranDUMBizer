@@ -62,33 +62,14 @@ export default function Navbar({ loggedIn }) {
           <div className='navbar-item'>
             {state.isLoggedIn ? (
               <div className='buttons'>
-                <a
-                  className='button is-danger'
-                  onClick={() => {
-                    dispatch({
-                      type: UPDATE_LOGGED_IN,
-                      isLoggedIn: false,
-                    });
-                  }}
-                >
-                  Log Out
-                </a>
+                <a className='button is-danger'>Log Out</a>
               </div>
             ) : (
               <div className='buttons'>
                 <a className='button is-primary' href='/signup'>
                   <strong>Sign up</strong>
                 </a>
-                <a
-                  className='button is-light'
-                  onClick={() => {
-                    dispatch({
-                      type: UPDATE_LOGGED_IN,
-                      isLoggedIn: true,
-                    });
-                  }}
-                  href='/login'
-                >
+                <a className='button is-light' href='/login'>
                   Log in
                 </a>
               </div>

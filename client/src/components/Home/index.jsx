@@ -20,7 +20,7 @@ export default function Home() {
             case 7:
             case 8:
             case 9:
-                return `Which <em>"x"</em> should I watch first?:`
+                return `Which ${(<em>"x"</em>)} should I watch first?:`;
             default:
                 return 'Too bored, but not bored enough to be productive? Search for a list:'
         }
