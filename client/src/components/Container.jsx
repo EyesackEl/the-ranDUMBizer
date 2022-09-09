@@ -9,6 +9,8 @@ import Problem from './Problem';
 import Login from './Login_Signup/Login';
 import Signup from './Login_Signup/Signup';
 
+import '../style/style.css'
+
 export default function Container() {
   //   const [currentPage, setCurrentPage] = useState('Home');
 
