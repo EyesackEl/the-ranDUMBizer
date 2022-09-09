@@ -5,6 +5,7 @@ const typeDefs = gql`
     _id: ID
     name: String
     listItems: String
+    user: User
   }
 
   type user {
