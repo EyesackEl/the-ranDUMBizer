@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import { useDispatch, useSelector } from 'react-redux';
-import { UPDATE_LOGGED_IN } from '../utils/actions';
-import { useAppContext } from '../utils/GlobalState';
+import { UPDATE_LOGGED_IN } from '../../utils/actions';
+import { useAppContext } from '../../utils/GlobalState';
 
 export default function Navbar({ loggedIn }) {
   const [burgerState, setBurgerState] = useState(false);

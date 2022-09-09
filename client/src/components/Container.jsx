@@ -30,19 +30,19 @@ export default function Container() {
   //   };
 
   //   const handlePageChange = (page) => setCurrentPage(page);
-  const state = useAppContext();
+  //   const state = useAppContext();
 
-  const [loggedIn, setLoggedIn] = useState(state.isLoggedIn);
+  //   const [loggedIn, setLoggedIn] = useState(state.isLoggedIn);
 
   return (
     <Router>
-      <NavBar loggedIn={loggedIn} />
+      <NavBar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/waah" element={<Problem />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/waah' element={<Problem />} />
         </Routes>
       </main>
       {/* <Footer /> */}
