@@ -1,31 +1,49 @@
 import React, { useState } from 'react';
-import NavBar from './Navbar/Navbar';
-// import Footer from './Footer';
-import Home from './Home/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useAppContext } from '../utils/GlobalState';
 
-import '../style/style.css'
+import NavBar from './Navbar';
+// import Footer from './Footer';
+import Home from './Home';
+import Problem from './Problem';
+import Login from './Login_Signup/Login';
+import Signup from './Login_Signup/Signup';
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState("Home");
+  //   const [currentPage, setCurrentPage] = useState('Home');
 
-    const renderPage = () => {
-        switch(currentPage) {
-            case "Home":
-                return <Home />;
-            default:
-                return <Home />;
-        }
-    };
+  //   const renderPage = () => {
+  //     switch (currentPage) {
+  //       case 'Home':
+  //         return <Home handlePageChange={handlePageChange} />;
+  //       case 'Problem':
+  //         return <Problem handlePageChange={handlePageChange} />;
+  //       case 'Login':
+  //         return <Login handlePageChange={handlePageChange} />;
+  //       case 'Signup':
+  //         return <Signup handlePageChange={handlePageChange} />;
+  //       default:
+  //         return <Home />;
+  //     }
+  //   };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+  //   const handlePageChange = (page) => setCurrentPage(page);
+  const state = useAppContext();
 
-    return (
-        <>
-            <NavBar currentPage = {currentPage} handlePageChange = {handlePageChange} />
-                <main>
-                    {renderPage()}  
-                </main>
-            {/* <Footer /> */}
-        </>
-    );
+  const [loggedIn, setLoggedIn] = useState(state.isLoggedIn);
+
+  return (
+    <Router>
+      <NavBar loggedIn={loggedIn} />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/waah" element={<Problem />} />
+        </Routes>
+      </main>
+      {/* <Footer /> */}
+    </Router>
+  );
 }
