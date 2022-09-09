@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../../../utils/mutations';
 
-import Auth from '../../../utils/auth';
+// import Auth from '../../../utils/auth';
 
 export default function Login() {
 
@@ -30,7 +30,7 @@ export default function Login() {
         variables: { ...formState },
       });
 
-      Auth.login(data.login.token);
+      // Auth.login(data.login.token);
     } catch (e) {
       console.error(e);
     }
@@ -47,7 +47,7 @@ export default function Login() {
       <h1 className='has-text-centered block box'> Login! </h1>
       <div className='columns'>
         <div className='column'>
-          <div className='box block'>
+          <form className='box block' onSubmit={handleFormSubmit}>
             <div class='field'>
               <label class='label'>Username</label>
               <div class='control'>
@@ -73,8 +73,8 @@ export default function Login() {
                 />
               </div>
             </div>
-            <button className='button is-primary'>Login</button>
-          </div>
+            <button className='button is-primary' type='submit'>Login</button>
+          </form>
         </div>
       </div>
     </div>
