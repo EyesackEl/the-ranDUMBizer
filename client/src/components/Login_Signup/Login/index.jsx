@@ -1,8 +1,9 @@
-import React, { UseState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../../../utils/mutations';
 
+import Auth from '../../../utils/auth';
 
 export default function Login() {
 
@@ -50,14 +51,26 @@ export default function Login() {
             <div class='field'>
               <label class='label'>Username</label>
               <div class='control'>
-                <input class='input' type='username' />
+                <input class='input' 
+                type='username' 
+                placeholder='Your Username'
+                name='username' 
+                value={formState.email} 
+                onChange={handleChange}
+                />
               </div>
             </div>
 
             <div class='field'>
               <label class='label'>Password</label>
               <div class='control'>
-                <input class='input' type='password' placeholder='********' />
+                <input class='input' 
+                type='password'
+                name='password' 
+                placeholder='********'
+                value={formState.password}
+                onChange={handleChange}
+                />
               </div>
             </div>
             <button className='button is-primary'>Login</button>
