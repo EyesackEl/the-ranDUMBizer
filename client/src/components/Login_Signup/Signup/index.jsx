@@ -3,9 +3,11 @@ import React, { UseState } from 'react';
 export default function Signup() {
   return (
     <div className='content box'>
-      <h1 className='has-text-centered block box'> Signup! </h1>
-      <div className='columns is-centered'>
+      <h1 className='has-text-centered block box'> Sign Up! </h1>
+
+      <form className='columns is-centered'>
         <div className='column is-1' />
+
         <div className='column is-half'>
           <div className='box block'>
             <div className='field'>
@@ -46,10 +48,13 @@ export default function Signup() {
         <div className='column is-vcentered has-text-centered'>
           <button className='button is-medium is-primary mt-6'>Sign Up</button>
           <h4 className='my-4'>-- OR --</h4>
-          <button className='button is-medium is-warning mb-4'>Log In</button>
+          <a className='button is-medium is-warning mb-4' href='/login'>
+            Log In
+          </a>
         </div>
+
         <div className='column is-1' />
-      </div>
+      </form>
     </div>
   );
 }
