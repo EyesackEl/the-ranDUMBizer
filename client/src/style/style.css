@@ -1,7 +1,48 @@
 :root {
+    --off-black: #2c373b;
+    --off-white: #f8f8f8;
     --grey-light: #d4d7df;
     --grey-dark: #8b90a0;
-    --off-black: #2c373b;
-    --blue: #a5f8d3;
-    --purple: #4a4771;
+    --green-light: #bef0d9;
+    --green: #a9e2c8;
+    --purple: #504771;
+}
+.navbar {
+    background-color: var(--green) !important;
+    height: 70px !important;
+    color: var(--grey-light) !important;
+}
+.navbar-content div a {
+    color: var(--purple) !important;
+    opacity: 100% !important;
+}
+body {
+    font-family: 'Poppins' !important;
+    color: var(--off-black) !important;
+}
+main {
+    background-color: var(--green-light);
+    margin-top: -70px;
+    min-height: 100vh;
+}
+h1, h2, h3, h4 {
+    font-family: 'Alumni Sans Pinstripe' !important;
+}
+h1 {
+    font-size: 500% !important;
+}
+h2 {
+    font-size: 375% !important;
+}
+h3 {
+    font-size: 275% !important;
+}
+h4 {
+    font-size: 215% !important;
+}
+h5 {
+    font-size: 160% !important;
+}
+h6 {
+    font-size: 120% !important;
 }
