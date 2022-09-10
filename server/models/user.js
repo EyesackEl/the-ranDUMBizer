@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const List = require('./list')
+
 
 const userSchema = new Schema({
     username: {
@@ -12,7 +12,12 @@ const userSchema = new Schema({
         required: true,
         minlength: 5,
     },
-  lists: [List.Schema]
+  lists: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'List'
+    }
+  ]
 });
 
 userSchema.pre('save', async function (next) {
