@@ -4,9 +4,7 @@ const listSchema = new Schema({
   name: {
     type: String,
     required: true,
-    unique: true,
-    trim: true,
-    public: true
+    trim: true
   },
   user: {
     type: Schema.Types.ObjectId,
