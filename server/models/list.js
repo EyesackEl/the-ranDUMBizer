@@ -4,20 +4,19 @@ const listSchema = new Schema({
   name: {
     type: String,
     required: true,
-    unique: true,
     trim: true,
-    public: true
+    public: true,
   },
   user: {
     type: Schema.Types.ObjectId,
-    ref: 'User'
+    ref: 'User',
   },
   listItems: [
     {
       type: String,
       trim: true,
     },
-  ]
+  ],
 });
 
 const List = model('List', listSchema);

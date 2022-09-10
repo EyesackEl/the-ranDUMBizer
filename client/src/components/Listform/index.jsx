@@ -26,7 +26,7 @@ export default function ListForm() {
             <div className='control'>
               <input class='input' type='text' placeholder='WWJD?' />
               <button className='button is-small is-primary mt-1 mr-1 is-pulled-right'>
-                <i className='fas fa-2x fa-check'></i>
+                <i className='fas  fa-plus'></i>
               </button>
             </div>
           </div>
