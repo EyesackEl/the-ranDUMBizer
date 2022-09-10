@@ -1,5 +1,10 @@
 import React, { UseState } from 'react';
 
+import { useMutation } from '@apollo/client';
+import { ADD_USER } from '../utils/mutations';
+import Auth from '../utils/auth';
+
+
 export default function Signup() {
   return (
     <div className='content box'>
@@ -53,3 +58,4 @@ export default function Signup() {
     </div>
   );
 }
+
