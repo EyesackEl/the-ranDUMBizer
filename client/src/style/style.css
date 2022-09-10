@@ -6,6 +6,7 @@
     --green-light: #bef0d9;
     --green: #a9e2c8;
     --purple: #504771;
+    --purple-light: #7e759d;
 }
 .navbar {
     background-color: var(--green) !important;
