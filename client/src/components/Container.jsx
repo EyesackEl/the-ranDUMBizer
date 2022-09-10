@@ -8,7 +8,7 @@ import Home from './Home';
 import Problem from './Problem';
 import Login from './Login_Signup/Login';
 import Signup from './Login_Signup/Signup';
-
+import ListForm from './Listform';
 
 import '../style/style.css';
 
@@ -44,6 +44,7 @@ export default function Container() {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/waah' element={<Problem />} />
+          <Route path='/new-list' element={<ListForm />} />
           {/* <Route path='/list/:listId' element={<List />} /> */}
         </Routes>
       </main>
