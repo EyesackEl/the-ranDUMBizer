@@ -6,15 +6,21 @@ export const QUERY_USER = gql`
       _id
       username
       email
-      thoughts {
+      list {
         _id
-        thoughtText
-        createdAt
+        name
+        listItems
       }
     }
   }
 `;
 
-export const QUERY_THOUGHTS = gql`
-
+export const QUERY_SINGLE_LIST = gql`
+  query getSingleList($listId: ID!) {
+    list(listId: $listId){
+      _id
+      name
+      listItems
+    }
+  }
 `;
