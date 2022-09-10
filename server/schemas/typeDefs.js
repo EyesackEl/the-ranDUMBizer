@@ -21,15 +21,16 @@ const typeDefs = gql`
   }
 
   type Query {
-    user: (userId: ID!): User
-    lists: (userId: ID!): [List]
-    list: (listId: ID!): List
+    user (userId: ID!): User
+    lists (userId: ID!): [List]
+    list (listId: ID!): List
   }
 
   type Mutation {
     addUser(username: String!, password: String!): Auth
     login(username: String!, password: String!): Auth
-    addList(userId: ID!)
+    addList(userId: ID! name: String!): List
+    addListItems(listId: ID!): List
   }
 `;
 
