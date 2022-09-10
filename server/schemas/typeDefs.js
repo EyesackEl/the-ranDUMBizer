@@ -5,7 +5,7 @@ const typeDefs = gql`
     _id: ID
     name: String
     listItems: String
-    user: User
+    public: Boolean
   }
 
   type User {
@@ -29,8 +29,8 @@ const typeDefs = gql`
   type Mutation {
     addUser(username: String!, password: String!): Auth
     login(username: String!, password: String!): Auth
-    addList(userId: ID! name: String!): List
     addListItems(listId: ID!): List
+    addList(userId: ID!): User
   }
 `;
 
