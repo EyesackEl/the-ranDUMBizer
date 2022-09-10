@@ -2,17 +2,13 @@ import React, { useState } from 'react';
 // import { useDispatch, useSelector } from 'react-redux';
 import { UPDATE_LOGGED_IN } from '../../utils/actions';
 import { useAppContext } from '../../utils/GlobalState';
+import diceLogo from '../assets/dice.png';
 import Auth from '../../utils/auth';
 
-export default function Navbar({ loggedIn }) {
+export default function Navbar() {
   const [burgerState, setBurgerState] = useState(false);
   // const dispatch = useDispatch();
   const [state, dispatch] = useAppContext();
-
-  const logout = (event) => {
-    event.preventDefault();
-    Auth.logout();
-  };
 
   return (
     <nav
@@ -22,7 +18,7 @@ export default function Navbar({ loggedIn }) {
     >
       <div className='navbar-brand'>
         <a className='navbar-item' href='/'>
-          <img src='./DICE.jpg' width='50' height='5000' />
+          <img src={diceLogo} />
         </a>
 
         <button
@@ -47,7 +43,7 @@ export default function Navbar({ loggedIn }) {
         <div className='navbar-start'>
           <a className='navbar-item'>Public Lists</a>
 
-          {loggedIn ? <a className='navbar-item'>My Lists</a> : <div />}
+          {state.isLoggedIn ? <a className='navbar-item'>My Lists</a> : <div />}
 
           <div className='navbar-item has-dropdown is-hoverable'>
             <a className='navbar-link'>Wonder what's over here?</a>
@@ -68,7 +64,9 @@ export default function Navbar({ loggedIn }) {
           <div className='navbar-item'>
             {state.isLoggedIn ? (
               <div className='buttons'>
-                <a className='button is-danger' onClick={logout}>Log Out</a>
+                <a className='button is-danger' onClick={() => Auth.logout()}>
+                  Log Out
+                </a>
               </div>
             ) : (
               <div className='buttons'>
