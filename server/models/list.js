@@ -1,15 +1,10 @@
-const { Schema, model } = require('mongoose');
+const { Schema } = require('mongoose');
 
 const listSchema = new Schema({
   name: {
     type: String,
     required: true,
     trim: true,
-    public: true,
-  },
-  user: {
-    type: Schema.Types.ObjectId,
-    ref: 'User',
   },
   listItems: [
     {
@@ -19,6 +14,6 @@ const listSchema = new Schema({
   ],
 });
 
-const List = model('List', listSchema);
+// const List = model('List', listSchema);
 
-module.exports = List;
+module.exports = listSchema;
