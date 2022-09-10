@@ -1,0 +1,5 @@
+.tagWrapper {
+    border: 5px ridge var(--grey-dark);
+    background-color: var(--green);
+    height: 130px;
+}

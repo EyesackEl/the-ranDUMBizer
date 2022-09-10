@@ -6,9 +6,9 @@ export default function Signup() {
       <h1 className='has-text-centered block box'> Sign Up! </h1>
 
       <form className='columns is-centered'>
-        <div className='column is-1' />
+        <div className='column is-1-tablet is-2-desktop' />
 
-        <div className='column is-half'>
+        <div className='column'>
           <div className='box block'>
             <div className='field'>
               <label className='label'>Username</label>
@@ -45,15 +45,17 @@ export default function Signup() {
           </div>
         </div>
 
-        <div className='column is-vcentered has-text-centered'>
-          <button className='button is-medium is-primary mt-6'>Sign Up</button>
+        <div className='mt-5 column is-vcentered has-text-centered'>
+          <button className='button is-medium is-primary mt-6' type='submit'>
+            Sign Up
+          </button>
           <h4 className='my-4'>-- OR --</h4>
           <a className='button is-medium is-warning mb-4' href='/login'>
             Log In
           </a>
         </div>
 
-        <div className='column is-1' />
+        <div className='column is-2-desktop is-1-tablet' />
       </form>
     </div>
   );
