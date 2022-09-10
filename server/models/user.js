@@ -1,18 +1,23 @@
 const { Schema, model } = require('mongoose');
-const List = require('./list')
+const List = require('./List');
 
 const userSchema = new Schema({
-    username: {
-        type: String,
-        required: true,
-        trim: true,
+  username: {
+    type: String,
+    required: true,
+    trim: true,
+  },
+  password: {
+    type: String,
+    required: true,
+    minlength: 5,
+  },
+  lists: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'List',
     },
-    password: {
-        type: String,
-        required: true,
-        minlength: 5,
-    },
-  lists: [List.Schema]
+  ],
 });
 
 userSchema.pre('save', async function (next) {
