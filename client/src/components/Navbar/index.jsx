@@ -2,11 +2,17 @@ import React, { useState } from 'react';
 // import { useDispatch, useSelector } from 'react-redux';
 import { UPDATE_LOGGED_IN } from '../../utils/actions';
 import { useAppContext } from '../../utils/GlobalState';
+import Auth from '../../utils/auth';
 
 export default function Navbar({ loggedIn }) {
   const [burgerState, setBurgerState] = useState(false);
   // const dispatch = useDispatch();
   const [state, dispatch] = useAppContext();
+
+  const logout = (event) => {
+    event.preventDefault();
+    Auth.logout();
+  };
 
   return (
     <nav
@@ -62,7 +68,7 @@ export default function Navbar({ loggedIn }) {
           <div className='navbar-item'>
             {state.isLoggedIn ? (
               <div className='buttons'>
-                <a className='button is-danger'>Log Out</a>
+                <a className='button is-danger' onClick={logout}>Log Out</a>
               </div>
             ) : (
               <div className='buttons'>
