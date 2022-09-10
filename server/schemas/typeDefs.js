@@ -22,6 +22,8 @@ const typeDefs = gql`
 
   type Query {
     _dummy: String
+    user: (userId: ID!): User
+    list: (listId: ID!): List
   }
 
   type Mutation {
