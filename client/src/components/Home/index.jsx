@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ListCard from '../cards/listCard';
 import '../../style/Home/home.css';
+import diceLogo from '../assets/dice.png';
 
 export default function Home() {
   const renderSearchLabel = () => {
@@ -28,6 +29,7 @@ export default function Home() {
     <div>
       <div className='home-container section'>
         <header>
+          <img src={diceLogo} alt='logo' className='logo' />
           <h1>
             ran<strong>DUMB</strong>izer
           </h1>
