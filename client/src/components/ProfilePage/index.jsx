@@ -22,13 +22,15 @@ export default function ProfilePage() {
       {state.isLoggedIn ? (
         <div className='content box has-text-centered'>
           <h1>{myProfile.data.username}'s Lists</h1>
-          {myLists.map((list) => (
-            <Card
-              key={list._id}
-              props={list}
-              username={myProfile.data.username}
-            />
-          ))}
+          <div className='columns is-centered is-multiline'>
+            {myLists.map((list) => (
+              <Card
+                key={list._id}
+                props={list}
+                username={myProfile.data.username}
+              />
+            ))}
+          </div>
         </div>
       ) : (
         <div className='content box has-text-centered'>

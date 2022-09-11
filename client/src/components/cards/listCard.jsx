@@ -5,7 +5,7 @@ export default function List({ props, username }) {
   return (
     <a
       href={`/list/${props._id}`}
-      className='tagWrapper content column-is-two-thirds-desktop column is-10'
+      className='tagWrapper content column is-half-desktop is-10 mx-1'
       key={props._id}
     >
       <div>
