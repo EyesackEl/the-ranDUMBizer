@@ -9,31 +9,12 @@ import Problem from './Problem';
 import Login from './Login_Signup/Login';
 import Signup from './Login_Signup/Signup';
 import ListForm from './Listform';
+import ProfilePage from './ProfilePage';
 
 import '../style/style.css';
 
 export default function Container() {
-  //   const [currentPage, setCurrentPage] = useState('Home');
-
-  //   const renderPage = () => {
-  //     switch (currentPage) {
-  //       case 'Home':
-  //         return <Home handlePageChange={handlePageChange} />;
-  //       case 'Problem':
-  //         return <Problem handlePageChange={handlePageChange} />;
-  //       case 'Login':
-  //         return <Login handlePageChange={handlePageChange} />;
-  //       case 'Signup':
-  //         return <Signup handlePageChange={handlePageChange} />;
-  //       default:
-  //         return <Home />;
-  //     }
-  //   };
-
-  //   const handlePageChange = (page) => setCurrentPage(page);
-  //   const state = useAppContext();
-
-  //   const [loggedIn, setLoggedIn] = useState(state.isLoggedIn);
+  const [state, dispatch] = useAppContext();
 
   return (
     <Router>
@@ -45,6 +26,12 @@ export default function Container() {
           <Route path='/signup' element={<Signup />} />
           <Route path='/waah' element={<Problem />} />
           <Route path='/new-list' element={<ListForm />} />
+          <Route
+            path={ // {'/profile'}
+              state.isLoggedIn ? '/profile/me' : '/profile'
+            }
+            element={<ProfilePage />}
+          />
           {/* <Route path='/list/:listId' element={<List />} /> */}
         </Routes>
       </main>
