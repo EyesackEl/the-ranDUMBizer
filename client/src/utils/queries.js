@@ -5,16 +5,28 @@ export const QUERY_USER = gql`
     user(username: $username) {
       _id
       username
-      email
       list {
         _id
         name
         listItems
+        user
       }
     }
   }
 `;
-
+export const QUERY_ME = gql`
+  query me($id: String!) {
+    me(_id: $id) {
+      _id
+      lists {
+        _id
+        name
+        listItems
+        public
+      }
+    }
+  }
+`;
 export const QUERY_SINGLE_LIST = gql`
   query getSingleList($listId: ID!) {
     list(listId: $listId){

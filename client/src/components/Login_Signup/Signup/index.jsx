@@ -11,6 +11,7 @@ export default function Signup() {
     username: '',
     password: '',
   });
+
   const [addUser, { error, data }] = useMutation(ADD_USER);
 
   const handleChange = (event) => {
@@ -23,6 +24,7 @@ export default function Signup() {
   };
 
   const handleFormSubmit = async (event) => {
+    console.log('submitted');
     event.preventDefault();
     console.log(formState);
 

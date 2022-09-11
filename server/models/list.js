@@ -1,4 +1,4 @@
-const { Schema } = require('mongoose');
+const { Schema, model } = require('mongoose');
 
 const listSchema = new Schema({
   name: {
@@ -6,12 +6,19 @@ const listSchema = new Schema({
     required: true,
     trim: true,
   },
+  public: {
+    type: Boolean,
+  },
   listItems: [
     {
       type: String,
       trim: true,
     },
   ],
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+  },
 });
 
 // const List = model('List', listSchema);
