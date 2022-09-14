@@ -4,6 +4,9 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
+    users: async () => {
+      return User.find();
+    },
     me: async (parent, { _id }) => {
       return User.findOne({ _id }).populate('lists');
     },
@@ -13,8 +16,8 @@ const resolvers = {
     },
     list: async (parent, { listId }) => {
       return List.findOne({ _id: listId });
-    }
-},
+    },
+  },
 
   Mutation: {
     //* didn't quite finish this one
@@ -23,7 +26,7 @@ const resolvers = {
         const list = await List.create({
           name,
           user: context.user._id,
-          listItems
+          listItems,
         });
 
         await User.findOneAndUpdate(
@@ -35,7 +38,6 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-
 
     addUser: async (parent, { username, password }) => {
       const user = await User.create({ username, password });
@@ -63,6 +65,5 @@ const resolvers = {
     },
   },
 };
-
 
 module.exports = resolvers;
