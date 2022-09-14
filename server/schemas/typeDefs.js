@@ -26,8 +26,7 @@ const typeDefs = gql`
     user(_id: ID!): User
     users: [User]
     lists: [List]
-    userLists(username: String): [List]
-    list(_id: ID!): List
+    list(listId: ID!): List
   }
 
   type Mutation {

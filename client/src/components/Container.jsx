@@ -34,7 +34,7 @@ export default function Container() {
             }
             element={<ProfilePage />}
           />
-          <Route path='/list/:id' element={<ListPage />} />
+          <Route path='/list/:listId' element={<ListPage />} />
           {/* <Route path='/list/:listId' element={<List />} /> */}
         </Routes>
       </main>
