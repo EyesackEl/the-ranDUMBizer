@@ -4,6 +4,9 @@ import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../../../utils/mutations';
 import Auth from '../../../utils/auth';
 
+import diceLogo from '../../assets/dice.png';
+import '../../../style/Login/login.css';
+
 export default function Login() {
   // state hooks for user data and mutation hook for login check
   const [formState, setFormState] = useState({ username: '', password: '' });
@@ -41,58 +44,62 @@ export default function Login() {
   };
 
   return (
-    <div className='content box'>
-      <h1 className='has-text-centered block box'> Login! </h1>
+    <div className="login-page-container">
+      <div className='content-box'>
+        <div className="login-side">
+          <h1>Login</h1>
+          <p>Welcome back! Enter login information:</p>
+          <form className='login-form' onSubmit={handleFormSubmit}>
+            <div className='login-input'>
+              <div class='field'>
+                <label class='label'>Username</label>
+                <div class='control'>
+                  <input
+                    class='input'
+                    type='username'
+                    placeholder='Your Username'
+                    name='username'
+                    value={formState.email}
+                    onChange={handleChange}
+                  />
+                </div>
+              </div>
 
-      <form className='columns is-centered' onSubmit={handleFormSubmit}>
-        <div className='column is-1-tablet is-2-desktop' />
-
-        <div className='column'>
-          <div className='box block'>
-            <div class='field'>
-              <label class='label'>Username</label>
-              <div class='control'>
-                <input
-                  class='input'
-                  type='username'
-                  placeholder='Your Username'
-                  name='username'
-                  value={formState.email}
-                  onChange={handleChange}
-                />
+              <div class='field'>
+                <label class='label'>Password</label>
+                <div class='control'>
+                  <input
+                    class='input'
+                    type='password'
+                    name='password'
+                    placeholder='********'
+                    value={formState.password}
+                    onChange={handleChange}
+                  />
+                </div>
               </div>
             </div>
 
-            <div class='field'>
-              <label class='label'>Password</label>
-              <div class='control'>
-                <input
-                  class='input'
-                  type='password'
-                  name='password'
-                  placeholder='********'
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-              </div>
+
+            <div className='login-button-container'>
+              <button className='login-button' type='submit'>
+                Login
+              </button>
+              <div className="divider"></div>
+              <p className='my-0'>Don't have an account?</p>
+              <a href='signup'>
+                Register
+              </a>
             </div>
-          </div>
+
+            <div className='column is-2-desktop is-1-tablet' />
+          </form>
         </div>
-
-        <div className='column is-0 is-1-desktop' />
-
-        <div className='mt-5 column is-vcentered has-text-centered'>
-          <button className='button is-medium is-primary' type='submit'>
-            Login
-          </button>
-          <h4 className='my-4'>--OR--</h4>
-          <a className='button is-medium is-warning' href='signup'>
-            Make an Account!
-          </a>
+        <div className="banner-side">
+          <img src={diceLogo} alt='logo' className='login-logo' />
+          <div className="banner-bg"></div>
         </div>
-
-        <div className='column is-2-desktop is-1-tablet' />
-      </form>
+      </div>
     </div>
   );
 }
