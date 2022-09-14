@@ -10,15 +10,15 @@ const resolvers = {
     user: async (parent, { _id }) => {
       return User.findOne({ _id }).populate('lists');
     },
-    me: async (parent, { _id }) => {
-      return User.findOne({ _id }).populate('lists');
-    },
     lists: async (parent, { user }) => {
       const params = user ? { user } : {};
-      return List.find(params);
+      return List.find(params).populate('user');
     },
     list: async (parent, { listId }) => {
-      return List.findOne({ _id: listId });
+      return List.findOne({ _id: listId }).populate('user');
+    },
+    me: async (parent, { _id }) => {
+      return User.findOne({ _id }).populate('lists');
     },
   },
 

@@ -11,7 +11,6 @@ import Signup from './Login_Signup/Signup';
 import ListPage from './ListPage';
 import ListForm from './Listform';
 import ProfilePage from './ProfilePage';
-import ListPage from './ListPage';
 import '../style/style.css';
 
 export default function Container() {
@@ -35,7 +34,7 @@ export default function Container() {
             }
             element={<ProfilePage />}
           />
-          <Route path='/list/:id' element={<ListPage />} />
+          <Route path='/list/:listId' element={<ListPage />} />
           {/* <Route path='/list/:listId' element={<List />} /> */}
         </Routes>
       </main>
