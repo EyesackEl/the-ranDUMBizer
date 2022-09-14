@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/list.css';
+import '../../style/listcard.css';
 
 export default function List({ props, username }) {
   return (
