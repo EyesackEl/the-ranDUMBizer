@@ -7,8 +7,8 @@ db.once('open', async () => {
   try {
     await User.deleteMany({});
     await List.deleteMany({});
-
-    await User.create(userSeeds);
+    await User.create(userSeeds)
+    ;
     // await List.create(listSeeds);
     for (let i = 0; i < listSeeds.length; i++) {
       const { _id, listItems, user } = await List.create(listSeeds[i]);
