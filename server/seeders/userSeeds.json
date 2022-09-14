@@ -1,0 +1,374 @@
+[
+  {
+    "username": "adam",
+    "password": "adampassword",
+    "lists": [
+      {
+        "name": "Friends",
+        "listItems": ["Rob", "Jon", "Ted", "Ben", "Roy"]
+      },
+      {
+        "name": "Enemies",
+        "listItems": ["Ryan", "Matthew", "Isaac", "Adam"]
+      },
+      {
+        "name": "Restaurants",
+        "listItems": [
+          "Thai",
+          "Korean",
+          "Vietnamese",
+          "Chinese",
+          "Mexican",
+          "Italian",
+          "Greek",
+          "Ethiopian",
+          "Brazilian",
+          "Japanese",
+          "Sushi",
+          "Diner",
+          "Seafood",
+          "Dim Sum",
+          "Barbecue"
+        ]
+      },
+      {
+        "name": "Video Games",
+        "listItems": [
+          "Halo: Combat Evolved",
+          "Halo 2",
+          "Halo 3",
+          "Halo Wars",
+          "Halo 3: ODST",
+          "Halo: Reach",
+          "Halo 4",
+          "Halo 5: Guardians",
+          "Halo Infinite",
+          "Tomb Raider",
+          "Rise of the Tomb Raider",
+          "Shadow of the Tomb Raider",
+          "Bioshock",
+          "Bioshock 2",
+          "Bioshock Infinite",
+          "Portal",
+          "Portal 2",
+          "Doom",
+          "Donkey Kong",
+          "Super Mario Bros. 3",
+          "Pole Position",
+          "Pong"
+        ]
+      },
+      {
+        "name": "Activities",
+        "listItems": [
+          "Read",
+          "Bike Ride",
+          "Swimming",
+          "Gym",
+          "Walk",
+          "Fishing",
+          "Woodworking"
+        ]
+      },
+      {
+        "name": "Boardgames",
+        "listItems": [
+          "Monopoly",
+          "Bananagrams",
+          "Pandemic",
+          "Uno",
+          "Scrabble",
+          "Sorry",
+          "Codenames",
+          "Chess",
+          "Checkers",
+          "Yhatzee",
+          "Exploding Kittens",
+          "Throw Throw Burrito",
+          "Cards Against Humanity",
+          "Joking Hazard",
+          "Trial by Trolley"
+        ]
+      }
+    ]
+  },
+  {
+    "username": "ryan",
+    "password": "ryanpassword",
+    "lists": [
+      {
+        "name": "Friends",
+        "listItems": ["Rob", "Jon", "Ted", "Ben", "Roy"]
+      },
+      {
+        "name": "Enemies",
+        "listItems": ["Ryan", "Matthew", "Isaac", "Adam"]
+      },
+      {
+        "name": "Restaurants",
+        "listItems": [
+          "Thai",
+          "Korean",
+          "Vietnamese",
+          "Chinese",
+          "Mexican",
+          "Italian",
+          "Greek",
+          "Ethiopian",
+          "Brazilian",
+          "Japanese",
+          "Sushi",
+          "Diner",
+          "Seafood",
+          "Dim Sum",
+          "Barbecue"
+        ]
+      },
+      {
+        "name": "Video Games",
+        "listItems": [
+          "Halo: Combat Evolved",
+          "Halo 2",
+          "Halo 3",
+          "Halo Wars",
+          "Halo 3: ODST",
+          "Halo: Reach",
+          "Halo 4",
+          "Halo 5: Guardians",
+          "Halo Infinite",
+          "Tomb Raider",
+          "Rise of the Tomb Raider",
+          "Shadow of the Tomb Raider",
+          "Bioshock",
+          "Bioshock 2",
+          "Bioshock Infinite",
+          "Portal",
+          "Portal 2",
+          "Doom",
+          "Donkey Kong",
+          "Super Mario Bros. 3",
+          "Pole Position",
+          "Pong"
+        ]
+      },
+      {
+        "name": "Activities",
+        "listItems": [
+          "Read",
+          "Bike Ride",
+          "Swimming",
+          "Gym",
+          "Walk",
+          "Fishing",
+          "Woodworking"
+        ]
+      },
+      {
+        "name": "Boardgames",
+        "listItems": [
+          "Monopoly",
+          "Bananagrams",
+          "Pandemic",
+          "Uno",
+          "Scrabble",
+          "Sorry",
+          "Codenames",
+          "Chess",
+          "Checkers",
+          "Yhatzee",
+          "Exploding Kittens",
+          "Throw Throw Burrito",
+          "Cards Against Humanity",
+          "Joking Hazard",
+          "Trial by Trolley"
+        ]
+      }
+    ]
+  },
+  {
+    "username": "matthew",
+    "password": "matthewpassword",
+    "lists": [
+      {
+        "name": "Friends",
+        "listItems": ["Rob", "Jon", "Ted", "Ben", "Roy"]
+      },
+      {
+        "name": "Enemies",
+        "listItems": ["Ryan", "Matthew", "Isaac", "Adam"]
+      },
+      {
+        "name": "Restaurants",
+        "listItems": [
+          "Thai",
+          "Korean",
+          "Vietnamese",
+          "Chinese",
+          "Mexican",
+          "Italian",
+          "Greek",
+          "Ethiopian",
+          "Brazilian",
+          "Japanese",
+          "Sushi",
+          "Diner",
+          "Seafood",
+          "Dim Sum",
+          "Barbecue"
+        ]
+      },
+      {
+        "name": "Video Games",
+        "listItems": [
+          "Halo: Combat Evolved",
+          "Halo 2",
+          "Halo 3",
+          "Halo Wars",
+          "Halo 3: ODST",
+          "Halo: Reach",
+          "Halo 4",
+          "Halo 5: Guardians",
+          "Halo Infinite",
+          "Tomb Raider",
+          "Rise of the Tomb Raider",
+          "Shadow of the Tomb Raider",
+          "Bioshock",
+          "Bioshock 2",
+          "Bioshock Infinite",
+          "Portal",
+          "Portal 2",
+          "Doom",
+          "Donkey Kong",
+          "Super Mario Bros. 3",
+          "Pole Position",
+          "Pong"
+        ]
+      },
+      {
+        "name": "Activities",
+        "listItems": [
+          "Read",
+          "Bike Ride",
+          "Swimming",
+          "Gym",
+          "Walk",
+          "Fishing",
+          "Woodworking"
+        ]
+      },
+      {
+        "name": "Boardgames",
+        "listItems": [
+          "Monopoly",
+          "Bananagrams",
+          "Pandemic",
+          "Uno",
+          "Scrabble",
+          "Sorry",
+          "Codenames",
+          "Chess",
+          "Checkers",
+          "Yhatzee",
+          "Exploding Kittens",
+          "Throw Throw Burrito",
+          "Cards Against Humanity",
+          "Joking Hazard",
+          "Trial by Trolley"
+        ]
+      }
+    ]
+  },
+  {
+    "username": "isaac",
+    "password": "isaacpassword",
+    "lists": [
+      {
+        "name": "Friends",
+        "listItems": ["Rob", "Jon", "Ted", "Ben", "Roy"]
+      },
+      {
+        "name": "Enemies",
+        "listItems": ["Ryan", "Matthew", "Isaac", "Adam"]
+      },
+      {
+        "name": "Restaurants",
+        "listItems": [
+          "Thai",
+          "Korean",
+          "Vietnamese",
+          "Chinese",
+          "Mexican",
+          "Italian",
+          "Greek",
+          "Ethiopian",
+          "Brazilian",
+          "Japanese",
+          "Sushi",
+          "Diner",
+          "Seafood",
+          "Dim Sum",
+          "Barbecue"
+        ]
+      },
+      {
+        "name": "Video Games",
+        "listItems": [
+          "Halo: Combat Evolved",
+          "Halo 2",
+          "Halo 3",
+          "Halo Wars",
+          "Halo 3: ODST",
+          "Halo: Reach",
+          "Halo 4",
+          "Halo 5: Guardians",
+          "Halo Infinite",
+          "Tomb Raider",
+          "Rise of the Tomb Raider",
+          "Shadow of the Tomb Raider",
+          "Bioshock",
+          "Bioshock 2",
+          "Bioshock Infinite",
+          "Portal",
+          "Portal 2",
+          "Doom",
+          "Donkey Kong",
+          "Super Mario Bros. 3",
+          "Pole Position",
+          "Pong"
+        ]
+      },
+      {
+        "name": "Activities",
+        "listItems": [
+          "Read",
+          "Bike Ride",
+          "Swimming",
+          "Gym",
+          "Walk",
+          "Fishing",
+          "Woodworking"
+        ]
+      },
+      {
+        "name": "Boardgames",
+        "listItems": [
+          "Monopoly",
+          "Bananagrams",
+          "Pandemic",
+          "Uno",
+          "Scrabble",
+          "Sorry",
+          "Codenames",
+          "Chess",
+          "Checkers",
+          "Yhatzee",
+          "Exploding Kittens",
+          "Throw Throw Burrito",
+          "Cards Against Humanity",
+          "Joking Hazard",
+          "Trial by Trolley"
+        ]
+      }
+    ]
+  }
+]

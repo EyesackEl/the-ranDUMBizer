@@ -5,16 +5,54 @@ export const QUERY_USER = gql`
     user(username: $username) {
       _id
       username
-      email
-      thoughts {
+      list {
         _id
-        thoughtText
-        createdAt
+        name
+        listItems
+        user
       }
     }
   }
 `;
-
-export const QUERY_THOUGHTS = gql`
-
+export const QUERY_ME = gql`
+  query me($id: String!) {
+    me(_id: $id) {
+      _id
+      lists {
+        _id
+        name
+        listItems
+        public
+      }
+    }
+  }
 `;
+export const QUERY_SINGLE_LIST = gql`
+  query getSingleList($listId: ID!) {
+    list(listId: $listId){
+      _id
+      name
+      listItems
+    }
+  }
+`;
+
+export const QUERY_ALL_LISTS = gql `
+  query getLists {
+    lists {
+      _id
+      name
+      listItems
+    }
+  }
+`
+export const QUERY_USER_LISTS = gql `
+  query getLists ($listId: ID!) {
+    lists(listId: $listId) {
+      _id
+      name
+      listItems
+    }
+  }
+`
+
