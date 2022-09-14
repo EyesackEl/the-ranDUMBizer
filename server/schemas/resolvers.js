@@ -7,6 +7,9 @@ const resolvers = {
     users: async () => {
       return User.find();
     },
+    user: async (parent, { _id }) => {
+      return User.findOne({ _id }).populate('lists');
+    },
     me: async (parent, { _id }) => {
       return User.findOne({ _id }).populate('lists');
     },
@@ -21,16 +24,36 @@ const resolvers = {
 
   Mutation: {
     //* didn't quite finish this one
-    addList: async (parent, { name, listItems }, context) => {
-      if (context.user) {
+    // addList: async (parent, { name, listItems, public }, context) => {
+    //   if (context.user) {
+    //     const list = await List.create({
+    //       name,
+    //       user: context.user._id,
+    //       listItems,
+    //       public,
+    //     });
+
+    //     await User.findOneAndUpdate(
+    //       { _id: context.user._id },
+    //       { $addToSet: { lists: list._id } }
+    //     );
+
+    //     return list;
+    //   }
+    //   throw new AuthenticationError('You need to be logged in!');
+    // },
+
+    addList: async (parent, { userId, name, listItems, public }, context) => {
+      if (userId) {
         const list = await List.create({
           name,
-          user: context.user._id,
+          user: userId,
           listItems,
+          public,
         });
 
         await User.findOneAndUpdate(
-          { _id: context.user._id },
+          { _id: userId },
           { $addToSet: { lists: list._id } }
         );
 
