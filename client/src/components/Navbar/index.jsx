@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { UPDATE_LOGGED_IN } from '../../utils/actions';
 import { useAppContext } from '../../utils/GlobalState';
 import diceLogo from '../assets/dice.png';
 import Auth from '../../utils/auth';
