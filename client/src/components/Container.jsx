@@ -11,11 +11,6 @@ import Signup from './Login_Signup/Signup';
 import ListPage from './ListPage';
 import ListForm from './Listform';
 import ProfilePage from './ProfilePage';
-import ListPage from './ListPage';
-<<<<<<< HEAD
-
-=======
->>>>>>> 606f0eacf4b7bad5003db94bf9dbb08d36780f5f
 import '../style/style.css';
 
 export default function Container() {
