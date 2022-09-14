@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+// const { user } = 
 
 const listSchema = new Schema({
   name: {
@@ -21,6 +22,6 @@ const listSchema = new Schema({
   },
 });
 
-// const List = model('List', listSchema);
+const List = model('List', listSchema);
 
-module.exports = listSchema;
+module.exports = List;

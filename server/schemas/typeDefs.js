@@ -22,18 +22,24 @@ const typeDefs = gql`
   }
 
   type Query {
-    me(_id: String!): User
-    user(_id: String!): User
-    lists(_id: String!): [List]
-    list(_id: String!): List
+    me(_id: ID!): User
+    user(_id: ID!): User
+    users: [User]
+    lists: [List]
+    userLists(username: String): [List]
+    list(_id: ID!): List
   }
 
   type Mutation {
     addUser(username: String!, password: String!): Auth
     login(username: String!, password: String!): Auth
-    addListItems(listId: ID!): List
-    addList(userId: ID!): User
-
+    addListItems(listId: String!): List
+    addList(
+      userId: ID!
+      name: String!
+      listItems: [String]!
+      Public: Boolean!
+    ): List
   }
 `;
 

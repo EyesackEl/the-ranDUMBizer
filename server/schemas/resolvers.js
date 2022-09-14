@@ -1,31 +1,67 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User } = require('../models');
+const { User, List } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
+    users: async () => {
+      return User.find();
+    },
+    user: async (parent, { _id }) => {
+      return User.findOne({ _id }).populate('lists');
+    },
     me: async (parent, { _id }) => {
-      return User.findOne({ _id });
+      return User.findOne({ _id }).populate('lists');
+    },
+    lists: async (parent, { user }) => {
+      const params = user ? { user } : {};
+      return List.find(params);
+    },
+    list: async (parent, { listId }) => {
+      return List.findOne({ _id: listId });
     },
   },
 
   Mutation: {
     //* didn't quite finish this one
-    // addList: async (parent, { userId, listItems }) => {
-    //   const user = User.findOneAndUpdate(
-    //     { _id: userId },
-    //     {
-    //       $addToSet: {
-    //         lists: {},
-    //       },
-    //     },
-    //     {
-    //       new: true,
-    //     }
-    //   );
+    // addList: async (parent, { name, listItems, public }, context) => {
+    //   if (context.user) {
+    //     const list = await List.create({
+    //       name,
+    //       user: context.user._id,
+    //       listItems,
+    //       public,
+    //     });
 
-    //   return user;
+    //     await User.findOneAndUpdate(
+    //       { _id: context.user._id },
+    //       { $addToSet: { lists: list._id } }
+    //     );
+
+    //     return list;
+    //   }
+    //   throw new AuthenticationError('You need to be logged in!');
     // },
+
+    addList: async (parent, { userId, name, listItems, public }, context) => {
+      if (userId) {
+        const list = await List.create({
+          name,
+          user: userId,
+          listItems,
+          public,
+        });
+
+        await User.findOneAndUpdate(
+          { _id: userId },
+          { $addToSet: { lists: list._id } }
+        );
+
+        return list;
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
+
     addUser: async (parent, { username, password }) => {
       const user = await User.create({ username, password });
       const token = signToken(user);
@@ -52,6 +88,5 @@ const resolvers = {
     },
   },
 };
-
 
 module.exports = resolvers;

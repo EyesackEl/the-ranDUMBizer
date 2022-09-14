@@ -43,15 +43,17 @@ export const QUERY_ALL_LISTS = gql `
       _id
       name
       listItems
+      public
     }
   }
 `
 export const QUERY_USER_LISTS = gql `
-  query getLists ($listId: ID!) {
-    lists(listId: $listId) {
+  query getLists ($userId: ID!) {
+    lists(userId: $userId) {
       _id
       name
       listItems
+      public
     }
   }
 `
