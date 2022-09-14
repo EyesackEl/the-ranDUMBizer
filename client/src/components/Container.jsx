@@ -10,6 +10,7 @@ import Login from './Login_Signup/Login';
 import Signup from './Login_Signup/Signup';
 import ListForm from './Listform';
 import ProfilePage from './ProfilePage';
+import ListPage from './ListPage';
 
 import '../style/style.css';
 

@@ -31,6 +31,7 @@ export const ADD_LIST = gql`
     _id
     name
     public
+    user
     listItems{
       _id
     }
