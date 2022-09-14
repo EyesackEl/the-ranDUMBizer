@@ -33,11 +33,11 @@ export default function ListForm() {
       listItems: listItems,
       public: publicList,
     };
-    console.log(payload);
+    console.log(...payload);
 
     try {
       const { data } = addList({
-        variables: payload,
+        variables: { ...payload },
       });
     } catch (err) {
       console.error(err);

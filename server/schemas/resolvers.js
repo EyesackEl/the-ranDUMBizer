@@ -5,6 +5,7 @@ const { signToken } = require('../utils/auth');
 const resolvers = {
   Query: {
     users: async () => {
+      console.log('ME!!!');
       return User.find().populate('lists');
     },
     user: async (parent, { _id }) => {
@@ -18,6 +19,7 @@ const resolvers = {
       return List.findOne({ _id: listId }).populate('user');
     },
     me: async (parent, { _id }) => {
+
       return User.findOne({ _id }).populate('lists');
     },
   },
@@ -51,9 +53,10 @@ const resolvers = {
         public,
       });
 
+      const listID = list._id;
       await User.findOneAndUpdate(
         { _id: userId },
-        { $addToSet: { lists: list._id } }
+        { $addToSet: { lists: listID } }
       );
 
       return list.populate('user');
