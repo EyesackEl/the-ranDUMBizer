@@ -6,14 +6,14 @@ const resolvers = {
   Query: {
     me: async (parent, { _id }) => {
       return User.findOne({ _id }).populate('lists');
-    }
+    },
     // lists: async (parent, { username }) => {
     //   const params = username ? { username } : {};
-    //   return List.find(params);
-    // },
-    list: async (parent, { listId }) => {
-      return List.findOne({ _id: listId });
-    }
+    // //   return List.find(params);
+    // // },
+    // list: async (parent, { listId }) => {
+    //   return List.findOne({ _id: listId });
+    // }
 },
 
   Mutation: {

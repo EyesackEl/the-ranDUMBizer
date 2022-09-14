@@ -14,11 +14,7 @@ const listSchema = new Schema({
       type: String,
       trim: true,
     },
-  ],
-  user: {
-    type: Schema.Types.ObjectId,
-    ref: 'User',
-  },
+  ]
 });
 
 // const List = model('List', listSchema);
