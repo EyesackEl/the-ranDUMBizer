@@ -30,7 +30,7 @@ export const QUERY_ME = gql`
 `;
 
 export const QUERY_SINGLE_LIST = gql`
-  query getSingleList($listId: ID!) {
+  query list($listId: ID!) {
     list(listId: $listId) {
       name
       listItems

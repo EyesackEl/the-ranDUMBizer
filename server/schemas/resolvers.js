@@ -18,6 +18,7 @@ const resolvers = {
       return List.findOne({ _id: listId }).populate('user');
     },
     me: async (parent, { _id }) => {
+
       return User.findOne({ _id }).populate('lists');
     },
   },
@@ -51,9 +52,12 @@ const resolvers = {
         public,
       });
 
+
+      const listID = list._id;
       await User.findOneAndUpdate(
         { _id: userId },
-        { $addToSet: { lists: list._id } }
+        { $addToSet: { lists: listID } }
+
       );
 
       return list.populate('user');
