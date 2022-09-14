@@ -14,9 +14,12 @@ const listSchema = new Schema({
       type: String,
       trim: true,
     },
-  ]
+  ],
+  user: {
+    type: String
+  },
 });
 
-// const List = model('List', listSchema);
+const List = model('List', listSchema);
 
-module.exports = listSchema;
+module.exports = List;

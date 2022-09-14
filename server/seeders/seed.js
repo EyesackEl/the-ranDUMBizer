@@ -9,7 +9,19 @@ db.once('open', async () => {
     await List.deleteMany({});
 
     await User.create(userSeeds);
-    await List.create(listSeeds);
+    // await List.create(listSeeds);
+    for (let i = 0; i < listSeeds.length; i++) {
+      const { _id, listItems, user } = await List.create(listSeeds[i]);
+      console.log(_id, user, listItems)
+      const userNew = await User.findOneAndUpdate(
+        { username: user },
+        {
+          $addToSet: {
+            lists: _id
+          },
+        }
+      );
+    }
   } catch (err) {
     console.error(err);
     process.exit(1);
