@@ -16,11 +16,10 @@ const listSchema = new Schema({
     },
   ],
   user: {
-    type: Schema.Types.ObjectId,
-    ref: 'User',
+    type: String
   },
 });
 
-// const List = model('List', listSchema);
+const List = model('List', listSchema);
 
-module.exports = listSchema;
+module.exports = List;
