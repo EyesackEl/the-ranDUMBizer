@@ -24,7 +24,9 @@ const typeDefs = gql`
   type Query {
     me(_id: ID!): User
     user(_id: ID!): User
-    lists(username: String): [List]
+    users: [User]
+    lists: [List]
+    userLists(username: String): [List]
     list(_id: ID!): List
   }
 
@@ -32,7 +34,7 @@ const typeDefs = gql`
     addUser(username: String!, password: String!): Auth
     login(username: String!, password: String!): Auth
     addListItems(_id: ID!): List
-    addList(userId: ID!): User
+    addList(userId: ID!): List
   }
 `;
 
