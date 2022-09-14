@@ -10,11 +10,13 @@ export default function Signup() {
   const [formState, setFormState] = useState({
     username: '',
     password: '',
+    confPassword: '',
   });
 
   const [addUser, { error, data }] = useMutation(ADD_USER);
 
   const handleChange = (event) => {
+    // event.preventDefault();
     const { name, value } = event.target;
 
     setFormState({
@@ -24,18 +26,21 @@ export default function Signup() {
   };
 
   const handleFormSubmit = async (event) => {
-    console.log('submitted');
     event.preventDefault();
     console.log(formState);
 
-    try {
-      const { data } = await addUser({
-        variables: { ...formState },
-      });
+    if (formState.password === formState.confPassword) {
+      try {
+        const { data } = await addUser({
+          variables: { ...formState },
+        });
 
-      Auth.login(data.addUser.token);
-    } catch (e) {
-      console.error(e);
+        Auth.login(data.addUser.token);
+      } catch (e) {
+        console.error(e);
+      }
+    } else {
+      return;
     }
   };
 
@@ -53,7 +58,8 @@ export default function Signup() {
               <div className='control'>
                 <input
                   className='input'
-                  type='username'
+                  type='text'
+                  name='username'
                   placeholder="Make it something cool, it'll probably follow you around for a while"
                   value={formState.username}
                   onChange={handleChange}
@@ -67,6 +73,7 @@ export default function Signup() {
                 <input
                   className='input'
                   type='password'
+                  name='password'
                   placeholder='********'
                   value={formState.password}
                   onChange={handleChange}
@@ -80,7 +87,10 @@ export default function Signup() {
                 <input
                   className='input'
                   type='password'
+                  name='confPassword'
                   placeholder='********'
+                  value={formState.confPassword}
+                  onChange={handleChange}
                 />
               </div>
             </div>
