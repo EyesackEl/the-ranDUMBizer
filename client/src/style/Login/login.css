@@ -13,13 +13,13 @@
     display: flex;
     justify-content: center;
 }
-.login-button-container a {
+.login-page-container a {
     color: var(--purple);
 }
-.login-button-container a:hover {
+.login-page-container a:hover {
     color: var(--purple-light);
 }
-.login-button-container input:focus {
+.login-page-container input:focus {
     outline: none !important;
     border: 1px solid var(--off-black) !important;
     box-shadow: 0px 0px 2px 2px #9f97bd !important;
