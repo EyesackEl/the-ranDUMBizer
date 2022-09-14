@@ -26,13 +26,19 @@ export const ADD_USER = gql`
 `;
 
 export const ADD_LIST = gql`
-  mutation addList($userId: ID!) {
-    addList(userId: $userId)
-    _id
-    name
-    public
-    listItems{
-      _id
+  mutation addList(
+    $userId: ID!.
+    $name: String!
+    $listItems: [String]!
+    $public: Boolean!
+
+  ) {
+    addList(
+      userId: $userId
+      name: $name
+      listItems: $listItems
+      public: $public
+    ) {
+      name
     }
-  }
-`
+`;
