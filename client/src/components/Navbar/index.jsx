@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../../utils/GlobalState';
-import { TOGGLE_DARK_MODE } from '../../utils/actions';
+// import { TOGGLE_DARK_MODE } from '../../utils/actions';
 import diceLogo from '../assets/dice.png';
 import Auth from '../../utils/auth';
 
