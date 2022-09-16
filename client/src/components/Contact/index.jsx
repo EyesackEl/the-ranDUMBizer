@@ -6,7 +6,8 @@ import diceLogo from '../assets/Gmail.png';
 
 export default function Contact() {
     return (
-        <div>
+        <div className='contact-page-container'>
+            <h1>Contact Us</h1>
             <section className='contactCard'>
                 <section className="contact">
                     <h2>Matthaiah</h2>
