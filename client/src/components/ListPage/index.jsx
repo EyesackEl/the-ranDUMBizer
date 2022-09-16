@@ -6,18 +6,19 @@ export default function List() {
   const prevButton = `❬`;
 
   useEffect(() => {
-    let slides = document.querySelectorAll(".slide");
+    if (!loading) {
+      let slides = document.querySelectorAll(".slide");
     let slideCopies = document.querySelectorAll(".slide-copy");
     let originalSlides = document.querySelectorAll(".original-slide");
-    let lastSlide = slides[slides.length - 1];
+      let lastSlide = slides[slides.length - 1];
 
-    slides.forEach(slide => {
-      let slideDataID = slide.getAttribute('data-id');
-      let slidePos = slideDataID - Math.floor(slides.length / 2);
+      slides.forEach(slide => {
+        let slideDataID = slide.getAttribute('data-id');
+        let slidePos = slideDataID - Math.floor(slides.length / 2);
 
-      slide.style.transform = `translateX(${slidePos * 100}%)`;
-      slide.style.zIndex = 2;
-    });
+        slide.style.transform = `translateX(${slidePos * 100}%)`;
+        slide.style.zIndex = 2;
+      });
 
     if(!originalSlides[0]) {
       slides.forEach(slide => {
@@ -49,10 +50,10 @@ export default function List() {
     let animationSlides = document.querySelectorAll(".new-slide");
     let k = 0;
 
-    if(!animationSlides[0]) {
-      for(let i = 20; i > 0; i--) {
-        if(k < slides.length) {
-          let newSlide = slides[k].cloneNode(true);
+      if(!animationSlides[0]) {
+        for(let i = 20; i > 0; i--) {
+          if(k < slides.length) {
+            let newSlide = slides[k].cloneNode(true);
 
           lastSlide.after(newSlide);
           newSlide.setAttribute("data-id", ((slides.length - 1) + i));
@@ -92,11 +93,11 @@ export default function List() {
           </div>
         </div>
 
-        <div className="slide" data-id={1}>
-          <div className="slide-content">
-            <h1>slide 1</h1>
+          {/* <div className="slide" data-id={1}>
+            <div className="slide-content">
+              <h1>slide 1</h1>
+            </div>
           </div>
-        </div>
 
         <div className="slide" data-id={2}>
           <div className="slide-content">
@@ -208,7 +209,7 @@ export default function List() {
             slide.style.zIndex = 2;
           })
 
-          let x = animationSlides.length - 1;
+            let x = animationSlides.length - 1;
 
           animationSlides.forEach(slide => {
             let slideDataID = slide.getAttribute('data-id');
