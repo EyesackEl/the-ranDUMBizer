@@ -46,7 +46,7 @@ export default function Navbar() {
 
               <div className="nav-divider"></div> 
 
-              <a className='navbar-item'>
+              <a href='/contact' className='navbar-item'>
                 Contact Us
               </a>
 
