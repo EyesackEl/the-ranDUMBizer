@@ -11,7 +11,7 @@ export const reducer = (state, action) => {
     case TOGGLE_DARK_MODE:
       return {
         ...state,
-        isLoggedIn: !action.darkMode,
+        darkMode: !state.darkMode,
       };
     default:
       return state;

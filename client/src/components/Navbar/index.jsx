@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../../utils/GlobalState';
-import { TOGGLE_DARK_MODE } from '../../utils/actions';
+// import { TOGGLE_DARK_MODE } from '../../utils/actions';
 import diceLogo from '../assets/dice.png';
 import Auth from '../../utils/auth';
 
@@ -8,9 +8,7 @@ export default function Navbar() {
   const [burgerState, setBurgerState] = useState(false);
   const [state, dispatch] = useAppContext();
 
-  function toggleDarkMode() {
-    dispatch({ type: TOGGLE_DARK_MODE });
-  }
+
 
   return (
     <nav className='navbar' role='navigation' aria-label='main navigation'>
@@ -31,9 +29,7 @@ export default function Navbar() {
               aria-label='menu'
               aria-expanded='true'
               data-target='navbarContent'
-              onClick={() =>
-                !burgerState ? setBurgerState(true) : setBurgerState(false)
-              }
+              onClick={() => setBurgerState(!burgerState)}
             >
               <span aria-hidden='true'></span>
               <span aria-hidden='true'></span>
@@ -42,11 +38,11 @@ export default function Navbar() {
           </div>
         </div>
         <div className='navbar-center'>
-          <a href='#' className='navbar-item'>
+          <a href='/public-lists' className='navbar-item'>
             View Lists
           </a>
 
-          <div className='nav-divider'></div>
+          <div className='nav-divider' />
 
           <a
             href={state.isLoggedIn ? '/new-list' : '/login'}
@@ -55,7 +51,7 @@ export default function Navbar() {
             Create List
           </a>
 
-          <div className='nav-divider'></div>
+          <div className='nav-divider' />
 
           {state.isLoggedIn ? (
             <>
@@ -63,9 +59,11 @@ export default function Navbar() {
                 My Lists
               </a>
 
-              <div className='nav-divider'></div>
+              <div className='nav-divider' />
 
-              <a className='navbar-item'>Contact Us</a>
+              <a href='/contact' className='navbar-item'>
+                Contact Us
+              </a>
 
               <a
                 className='navbar-item navbar-logout-mobile'
@@ -76,11 +74,11 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <a href='#' className='navbar-item'>
+              <a href='/contact' className='navbar-item'>
                 Contact Us
               </a>
 
-              <div className='nav-divider'></div>
+              <div className='nav-divider' />
 
               <a className='navbar-item navbar-login-mobile' href='/login'>
                 Sign in
