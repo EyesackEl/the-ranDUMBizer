@@ -8,6 +8,7 @@ const { Provider } = AppContext;
 const AppProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useAppReducer({
     isLoggedIn: localStorage.getItem('id_token'),
+    darkMode: false,
   });
 
   return <Provider value={[state, dispatch]} {...props} />;
