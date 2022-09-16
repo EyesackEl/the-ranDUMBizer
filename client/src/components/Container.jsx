@@ -11,6 +11,7 @@ import Signup from './Login_Signup/Signup';
 import ListPage from './ListPage';
 import ListForm from './Listform';
 import ProfilePage from './ProfilePage';
+import Contact from './Contact'
 import PublicLists from './PublicLists';
 import '../style/style.css';
 
@@ -26,6 +27,7 @@ export default function Container() {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/waah' element={<Problem />} />
+          <Route path='/contact' element={<Contact />}/>
           <Route path='/new-list' element={<ListForm />} />
           <Route
             path={

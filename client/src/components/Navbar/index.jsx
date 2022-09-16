@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../../utils/GlobalState';
-import { TOGGLE_DARK_MODE } from '../../utils/actions';
+// import { TOGGLE_DARK_MODE } from '../../utils/actions';
 import diceLogo from '../assets/dice.png';
 import Auth from '../../utils/auth';
 
@@ -61,7 +61,9 @@ export default function Navbar() {
 
               <div className='nav-divider' />
 
-              <a className='navbar-item'>Contact Us</a>
+              <a href='/contact' className='navbar-item'>
+                Contact Us
+              </a>
 
               <a
                 className='navbar-item navbar-logout-mobile'
@@ -72,7 +74,7 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <a href='#' className='navbar-item'>
+              <a href='/contact' className='navbar-item'>
                 Contact Us
               </a>
 
