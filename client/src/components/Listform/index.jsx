@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { useMutation, useQuery } from '@apollo/client';
+import { useMutation } from '@apollo/client';
 import Auth from '../../utils/auth';
 import { ADD_LIST } from '../../utils/mutations';
-import { QUERY_ME } from '../../utils/queries';
 import FormItem from '../cards/formItem';
 
 import '../../style/Listform/listform.css';
@@ -13,8 +12,6 @@ export default function ListForm() {
   const [items, setItems] = useState(1);
 
   const [addList, { error }] = useMutation(ADD_LIST);
-
-  console.log(Auth.getProfile().data._id + publicList);
 
   for (let i = 0; i < items; i++) {
     itemRow.push(<FormItem key={i} />);
@@ -36,8 +33,6 @@ export default function ListForm() {
       public: publicList,
     };
 
-    console.log(payload);
-
     try {
       const { data } = addList({
         variables: { ...payload },
@@ -48,15 +43,13 @@ export default function ListForm() {
   };
 
   return (
-    <div className="new-list-page-container">
+    <div className='new-list-page-container'>
       <div className='new-list-content-box'>
-        <h1>
-          Create a list
-        </h1>
+        <h1>Create a list</h1>
         <p>Bless the world with your random assortment of things:</p>
 
         <form action=''>
-          <div className="new-list-form-container">
+          <div className='new-list-form-container'>
             <div className='field'>
               <label htmlFor='' className='label'>
                 List Name
@@ -81,7 +74,7 @@ export default function ListForm() {
               <label htmlFor='publicSwitch'>Make this list public?</label>
             </div>
           </div>
-          <div className="new-list-form-container">
+          <div className='new-list-form-container'>
             <div className='field'>
               <label htmlFor='' className='label'>
                 Add items to your list!
@@ -92,14 +85,13 @@ export default function ListForm() {
               <button
                 className='add-item-button'
                 type='button'
-                onClick={() => {setItems(items + 1);
-                console.log(itemRow.length)}}
+                onClick={() => setItems(items + 1)}
               >
                 <i className='fas fa-plus' /> Add another item
               </button>
             </div>
           </div>
-          <div className="divider"></div>
+          <div className='divider'></div>
           <button
             type='button'
             className='submit-list-button'
