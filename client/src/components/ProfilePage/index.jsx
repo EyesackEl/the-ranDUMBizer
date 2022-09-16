@@ -32,6 +32,7 @@ export default function ProfilePage() {
                   username={myProfile.data.username}
                 />
               ))}
+            
             </div>
           </div>
         ) : (

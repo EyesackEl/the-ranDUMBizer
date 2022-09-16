@@ -14,6 +14,7 @@ export default function List({ props, username }) {
           By: <strong>{username}</strong>
         </p>
       </div>
+      <button type="button" class="btn btn-danger delButton" id={`${props._id}`}>x</button>
     </a>
   );
 }
