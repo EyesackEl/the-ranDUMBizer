@@ -34,12 +34,11 @@ export default function ListForm() {
       public: publicList,
     };
 
-    console.log(...payload);
+    console.log(payload);
 
     try {
       const { data } = addList({
         variables: { ...payload },
-
       });
     } catch (err) {
       console.error(err);

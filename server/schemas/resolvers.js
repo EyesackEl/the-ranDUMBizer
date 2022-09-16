@@ -46,18 +46,17 @@ const resolvers = {
 
     addList: async (parent, { userId, name, listItems, public }) => {
       const list = await List.create({
-        userId,
+        user: userId,
         name,
         listItems,
         public,
       });
 
-
       const listID = list._id;
+
       await User.findOneAndUpdate(
         { _id: userId },
         { $addToSet: { lists: listID } }
-
       );
 
       return list.populate('user');
