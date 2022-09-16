@@ -1,0 +1,47 @@
+:root {
+    --off-black: #2c373b;
+    --off-white: #f8f8f8;
+    --grey-light: #d4d7df;
+    --grey-dark: #8b90a0;
+    --green-light: #bef0d9;
+    --green: #a9e2c8;
+    --purple: #504771;
+    --purple-light: #7e759d;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+.logos {
+    max-width: 111px;
+    margin-top: 3em;
+    transition: .3s;
+}
+
+.logos:hover {
+    transform: scale(1.03);
+}
+
+.contact {
+    margin: 2em 0 4em 0;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--off-black);
+    border-radius: 2em;
+    padding: 2em 2em 2em 2em;
+}
+
+.contactGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

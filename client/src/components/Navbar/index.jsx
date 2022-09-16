@@ -56,7 +56,7 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <a href='#' className='navbar-item'>
+              <a href='/contact' className='navbar-item'>
                 Contact Us
               </a>
 
