@@ -27,6 +27,7 @@ export const ADD_USER = gql`
 
 export const ADD_LIST = gql`
   mutation addList(
+
     $userId: ID!
     $name: String!
     $listItems: [String]!
@@ -40,5 +41,19 @@ export const ADD_LIST = gql`
     ) {
       name
     }
+
   }
+
 `;
+
+const DELETE_LIST = gql`
+  mutation deleteUser($id: ID!) {
+    deleteUser(_id: $id){
+      where: {
+        _id: {
+          _id: $id
+        }
+      }
+    }
+  }
+`
