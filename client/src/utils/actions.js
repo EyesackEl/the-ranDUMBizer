@@ -1,1 +1,2 @@
 export const UPDATE_LOGGED_IN = 'UPDATE_LOGGED_IN';
+export const TOGGLE_DARK_MODE = 'TOGGLE_DARK_MODE';
