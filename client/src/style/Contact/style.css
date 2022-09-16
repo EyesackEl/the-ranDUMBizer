@@ -1,0 +1,75 @@
+:root {
+    --off-black: #2c373b;
+    --off-white: #f8f8f8;
+    --grey-light: #d4d7df;
+    --grey-dark: #8b90a0;
+    --green-light: #bef0d9;
+    --green: #a9e2c8;
+    --purple: #504771;
+    --purple-light: #7e759d;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+.contactCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3.5%;
+}
+
+.logos {
+    max-width: 111px;
+    margin-top: 3em;
+    transition: .3s;
+}
+
+.logos:hover {
+    transform: scale(1.03);
+}
+
+h2 {
+    color: var(--purple-light);
+
+    font-weight: 900 !important;
+    position: relative;
+    left: 1em;
+    top: .5em;
+}
+
+.contact {
+    margin: 5em 0 4em 0;
+    width: 20%;
+    min-width: 22em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--off-black);
+    border-radius: 2em;
+    padding: 0 2em 2em 2em;
+    filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.37));
+}
+
+.contactGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactLink {
+    text-decoration: none;
+    font-size: 1em;
+    color:rgb(140, 187, 141);
+    transition: .6s;
+    padding: 1em;
+    padding-top: 2em;
+
+}

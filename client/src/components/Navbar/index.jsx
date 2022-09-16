@@ -65,7 +65,13 @@ export default function Navbar() {
 
               <div className='nav-divider'></div>
 
+<<<<<<< HEAD
+              <a href='/contact' className='navbar-item'>
+                Contact Us
+              </a>
+=======
               <a className='navbar-item'>Contact Us</a>
+>>>>>>> b7c3e85d3611c3f4a408352717c6efffeb01a37d
 
               <a
                 className='navbar-item navbar-logout-mobile'
@@ -76,7 +82,7 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <a href='#' className='navbar-item'>
+              <a href='/contact' className='navbar-item'>
                 Contact Us
               </a>
 
