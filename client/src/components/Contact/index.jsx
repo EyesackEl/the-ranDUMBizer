@@ -30,7 +30,7 @@ export default function Contact() {
                     </section>
                 </section>
                 <section className="contact">
-                    <h2>Eyesack-man</h2>
+                    <h2>Isaac-man</h2>
                     <section className="contactGroup">
                         <a href="mailto:eyesack@gmail.com">
                             <img src={diceLogo} alt="gmail logo" className="logos"/>
