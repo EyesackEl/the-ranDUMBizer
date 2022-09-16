@@ -45,7 +45,7 @@ export default function Login() {
 
   return (
     <div className="login-page-container">
-      <div className='content-box'>
+      <div className='login-content-box'>
         <div className="login-side">
           <h1>Login</h1>
           <p>Welcome back! Enter login information:</p>
@@ -95,9 +95,9 @@ export default function Login() {
             <div className='column is-2-desktop is-1-tablet' />
           </form>
         </div>
-        <div className="banner-side">
+        <div className="login-banner-side">
           <img src={diceLogo} alt='logo' className='login-logo' />
-          <div className="banner-bg"></div>
+          <div className="login-banner-bg"></div>
         </div>
       </div>
     </div>

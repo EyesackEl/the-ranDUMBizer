@@ -9,88 +9,86 @@ export default function Navbar() {
   const [state, dispatch] = useAppContext();
 
   return (
-    <nav
-      className='navbar block mb-6'
-      role='navigation'
-      aria-label='main navigation'
-    >
-      <div className='navbar-brand'>
-        <a className='navbar-item' href='/'>
-          <img src={diceLogo} />
-        </a>
-
-        <button
-          onClick={() =>
-            !burgerState ? setBurgerState(true) : setBurgerState(false)
-          }
-          className={!burgerState ? 'navbar-burger' : 'navbar-burger is-active'}
-          aria-label='menu'
-          aria-expanded='true'
-          data-target='navbarContent'
-        >
-          <span aria-hidden='true'></span>
-          <span aria-hidden='true'></span>
-          <span aria-hidden='true'></span>
-        </button>
-      </div>
-
-      <div
-        id='navbarContent'
-        className={!burgerState ? 'navbar-menu' : 'navbar-menu is-active'}
-      >
-        <div className='navbar-start'>
-          <a className='navbar-item'>Public Lists</a>
-
-          {state.isLoggedIn ? (
-            <a href='/profile/me' className='navbar-item'>
-              My Lists
+    <nav className='navbar' role='navigation' aria-label='main navigation'>
+      <div id='navbarContent' className={!burgerState ? 'navbar-menu' : 'navbar-menu is-active'}>
+        <div className="navbar-start">
+          <div className='navbar-brand'>
+            <a className='navbar-start-item' href='/'>
+              <img src={diceLogo} className='navbar-logo' />
             </a>
-          ) : (
-            <div />
-          )}
 
-          <a
-            href={state.isLoggedIn ? '/new-list' : '/login'}
-            className='navbar-item'
-          >
-            + New List
+            <button className={!burgerState ? 'navbar-burger' : 'navbar-burger is-active'} aria-label='menu' aria-expanded='true' data-target='navbarContent'
+            onClick={() =>
+              !burgerState ? setBurgerState(true) : setBurgerState(false)}>
+              <span aria-hidden='true'></span>
+              <span aria-hidden='true'></span>
+              <span aria-hidden='true'></span>
+            </button>
+          </div>
+        </div>
+        <div className='navbar-center'>
+          <a href='#' className='navbar-item'>
+            View Lists
           </a>
 
-          <div className='navbar-item has-dropdown is-hoverable'>
-            <a className='navbar-link'>Wonder what's over here?</a>
+          <div className="nav-divider"></div>  
+          
+          <a href={state.isLoggedIn ? '/new-list' : '/login'} className='navbar-item'>
+            Create List
+          </a>
 
-            <div className='navbar-dropdown'>
-              <a className='navbar-item'>About</a>
-              <a className='navbar-item'>Jobs</a>
-              <a className='navbar-item'>Contact</a>
-              <hr className='navbar-divider' />
-              <a className='navbar-item' href='/waah'>
-                Report an issue
+          <div className="nav-divider"></div> 
+
+          {state.isLoggedIn ? (
+            <>
+              <a href='/profile/me' className='navbar-item'>
+                My Lists
               </a>
-            </div>
-          </div>
+
+              <div className="nav-divider"></div> 
+
+              <a className='navbar-item'>
+                Contact Us
+              </a>
+
+              <a className='navbar-item navbar-logout-mobile' onClick={() => Auth.logout()}>
+                Log Out
+              </a>
+            </>
+          ) : (
+            <>
+              <a href='#' className='navbar-item'>
+                Contact Us
+              </a>
+
+              <div className="nav-divider"></div> 
+
+              <a className='navbar-item navbar-login-mobile' href='/login'>
+                Sign in
+              </a>
+
+              <a href='/signup' className='navbar-item'>
+                Register
+              </a>
+            </>
+          )}
+
+
         </div>
 
         <div className='navbar-end'>
-          <div className='navbar-item'>
+          <div className='navbar-end-item'>
             {state.isLoggedIn ? (
-              <div className='buttons'>
-                <a
-                  className='button is-danger is-pulled-right'
-                  onClick={() => Auth.logout()}
-                >
-                  Log Out
-                </a>
-              </div>
+              <a
+                className='navbar-logout'
+                onClick={() => Auth.logout()}
+              >
+                Log Out
+              </a>
             ) : (
-              <div className='buttons'>
-                <a className='button is-primary' href='/signup'>
-                  <strong>Sign up</strong>
-                </a>
-                <a className='button is-light' href='/login'>
-                  Log in
-                </a>
-              </div>
+              <a className='navbar-login' href='/login'>
+                Sign in
+              </a>
             )}
           </div>
         </div>
