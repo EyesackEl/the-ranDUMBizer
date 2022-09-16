@@ -12,7 +12,7 @@ export default function ListForm() {
 
   const [addList, { error }] = useMutation(ADD_LIST);
 
-  console.log(Auth.getProfile().data._id);
+  console.log(Auth.getProfile().data._id + publicList);
 
   for (let i = 0; i < items; i++) {
     itemRow.push(<FormItem key={i} />);
@@ -34,7 +34,7 @@ export default function ListForm() {
       public: publicList,
     };
 
-    console.log(...payload);
+    console.log(payload);
 
     try {
       const { data } = addList({

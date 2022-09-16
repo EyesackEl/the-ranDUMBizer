@@ -46,7 +46,7 @@ const resolvers = {
 
     addList: async (parent, { userId, name, listItems, public }) => {
       const list = await List.create({
-        userId,
+        user: userId,
         name,
         listItems,
         public,
