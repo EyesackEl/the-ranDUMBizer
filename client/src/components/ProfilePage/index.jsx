@@ -15,8 +15,6 @@ export default function ProfilePage() {
   });
 
   const myLists = data?.me.lists || [];
-  // myLists.map((list) => console.log(list));
-  console.log(myLists)
 
   return (
     <div>
