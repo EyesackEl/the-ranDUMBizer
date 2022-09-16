@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../../utils/GlobalState';
-import { TOGGLE_DARK_MODE } from '../../utils/actions';
+// import { TOGGLE_DARK_MODE } from '../../utils/actions';
 import diceLogo from '../assets/dice.png';
 import Auth from '../../utils/auth';
 
@@ -8,9 +8,9 @@ export default function Navbar() {
   const [burgerState, setBurgerState] = useState(false);
   const [state, dispatch] = useAppContext();
 
-  function toggleDarkMode() {
-    dispatch({ type: TOGGLE_DARK_MODE });
-  }
+  // function toggleDarkMode() {
+  //   dispatch({ type: TOGGLE_DARK_MODE });
+  // }
 
   return (
     <nav className='navbar' role='navigation' aria-label='main navigation'>
@@ -65,13 +65,9 @@ export default function Navbar() {
 
               <div className='nav-divider'></div>
 
-<<<<<<< HEAD
               <a href='/contact' className='navbar-item'>
                 Contact Us
               </a>
-=======
-              <a className='navbar-item'>Contact Us</a>
->>>>>>> b7c3e85d3611c3f4a408352717c6efffeb01a37d
 
               <a
                 className='navbar-item navbar-logout-mobile'
