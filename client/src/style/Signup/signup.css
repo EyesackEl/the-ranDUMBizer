@@ -19,11 +19,6 @@
 .register-page-container a:hover {
     color: var(--purple-light);
 }
-.register-page-container input:focus {
-    outline: none !important;
-    border: 1px solid var(--off-black) !important;
-    box-shadow: 0px 0px 2px 2px #9f97bd !important;
-}
 .register-content-box {
     margin-top: 45px;
     border-radius: 8px;
