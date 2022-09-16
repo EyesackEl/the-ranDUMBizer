@@ -52,12 +52,11 @@ const resolvers = {
         public,
       });
 
-
       const listID = list._id;
+
       await User.findOneAndUpdate(
         { _id: userId },
         { $addToSet: { lists: listID } }
-
       );
 
       return list.populate('user');

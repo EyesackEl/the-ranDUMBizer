@@ -39,7 +39,6 @@ export default function ListForm() {
     try {
       const { data } = addList({
         variables: { ...payload },
-
       });
     } catch (err) {
       console.error(err);
