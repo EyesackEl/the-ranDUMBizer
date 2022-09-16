@@ -37,7 +37,7 @@ const typeDefs = gql`
       userId: ID!
       name: String!
       listItems: [String]!
-      Public: Boolean!
+      public: Boolean!
     ): List
   }
 `;
