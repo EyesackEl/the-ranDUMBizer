@@ -40,7 +40,7 @@ export default function Home() {
           <input type='text' className='list-search' id='list-search' />
         </div>
 
-        <h6>or...</h6>
+        <p>or...</p>
 
         <a className=''>Take me to a random list</a>
       </div>

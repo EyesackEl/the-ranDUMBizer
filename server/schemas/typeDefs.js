@@ -26,15 +26,19 @@ const typeDefs = gql`
     user(_id: ID!): User
     users: [User]
     lists: [List]
-    userLists(username: String): [List]
-    list(_id: ID!): List
+    list(listId: ID!): List
   }
 
   type Mutation {
     addUser(username: String!, password: String!): Auth
     login(username: String!, password: String!): Auth
-    addListItems(listId: ID!): List
-    addList(userId: ID!): List
+    addListItems(listId: String!): List
+    addList(
+      userId: ID!
+      name: String!
+      listItems: [String]!
+      public: Boolean!
+    ): List
   }
 `;
 

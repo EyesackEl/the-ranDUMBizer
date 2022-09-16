@@ -8,9 +8,9 @@ import Home from './Home';
 import Problem from './Problem';
 import Login from './Login_Signup/Login';
 import Signup from './Login_Signup/Signup';
+import ListPage from './ListPage';
 import ListForm from './Listform';
 import ProfilePage from './ProfilePage';
-
 import '../style/style.css';
 
 export default function Container() {
@@ -28,11 +28,13 @@ export default function Container() {
           <Route path='/carousel-porn' element={<ListPage />} />
           <Route path='/new-list' element={<ListForm />} />
           <Route
-            path={ // {'/profile'}
-              state.isLoggedIn ? '/profile/me' : '/profile'
+            path={
+              // {'/profile'}
+              state.isLoggedIn ? '/profile/me' : '/profile/'
             }
             element={<ProfilePage />}
           />
+          <Route path='/list/:listId' element={<ListPage />} />
           {/* <Route path='/list/:listId' element={<List />} /> */}
         </Routes>
       </main>

@@ -14,8 +14,9 @@ export const QUERY_USER = gql`
     }
   }
 `;
+
 export const QUERY_ME = gql`
-  query me($id: String!) {
+  query me($id: ID!) {
     me(_id: $id) {
       _id
       lists {
@@ -27,17 +28,21 @@ export const QUERY_ME = gql`
     }
   }
 `;
+
 export const QUERY_SINGLE_LIST = gql`
-  query getSingleList($listId: ID!) {
-    list(listId: $listId){
-      _id
+  query list($listId: ID!) {
+    list(listId: $listId) {
       name
       listItems
+      public
+      user {
+        username
+      }
     }
   }
 `;
 
-export const QUERY_ALL_LISTS = gql `
+export const QUERY_ALL_LISTS = gql`
   query getLists {
     lists {
       _id
@@ -46,9 +51,10 @@ export const QUERY_ALL_LISTS = gql `
       public
     }
   }
-`
-export const QUERY_USER_LISTS = gql `
-  query getLists ($userId: ID!) {
+`;
+
+export const QUERY_USER_LISTS = gql`
+  query getLists($userId: ID!) {
     lists(userId: $userId) {
       _id
       name
@@ -56,5 +62,5 @@ export const QUERY_USER_LISTS = gql `
       public
     }
   }
-`
+`;
 

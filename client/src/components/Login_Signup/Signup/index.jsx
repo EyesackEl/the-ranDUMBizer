@@ -4,6 +4,8 @@ import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../../../utils/mutations';
 import Auth from '../../../utils/auth';
 
+import diceLogo from '../../assets/dice.png';
+import '../../../style/Signup/signup.css';
 
 export default function Signup() {
 
@@ -45,70 +47,75 @@ export default function Signup() {
   };
 
   return (
-    <div className='content box'>
-      <h1 className='has-text-centered block box'> Sign Up! </h1>
-
-      <form className='columns is-centered' onSubmit={handleFormSubmit}>
-        <div className='column is-1-tablet is-2-desktop' />
-
-        <div className='column'>
-          <div className='box block'>
-            <div className='field'>
-              <label className='label'>Username</label>
-              <div className='control'>
-                <input
-                  className='input'
-                  type='text'
-                  name='username'
-                  placeholder="Make it something cool, it'll probably follow you around for a while"
-                  value={formState.username}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-
-            <div className='field'>
-              <label className='label'>Password</label>
-              <div className='control'>
-                <input
-                  className='input'
-                  type='password'
-                  name='password'
-                  placeholder='********'
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-
-            <div className='field'>
-              <label className='label'>Re-Enter Password</label>
-              <div className='control'>
-                <input
-                  className='input'
-                  type='password'
-                  name='confPassword'
-                  placeholder='********'
-                  value={formState.confPassword}
-                  onChange={handleChange}
-                />
-              </div>
-            </div>
-          </div>
+    <div className="register-page-container">
+      <div className='register-content-box'>
+        <div className="register-banner-side">
+          <img src={diceLogo} alt='logo' className='register-logo' />
+          <div className="register-banner-bg"></div>
         </div>
+        <div className="register-side">
+          <h1>Sign Up</h1>
+          <p>Enter information to create an account:</p>
+          <form className='register-form' onSubmit={handleFormSubmit}>
+            <div className='register-input'>
+              <div class='field'>
+                <label class='label'>Username</label>
+                <div class='control'>
+                  <input
+                    class='input'
+                    type='username'
+                    placeholder='Desired Username'
+                    name='username'
+                    value={formState.email}
+                    onChange={handleChange}
+                  />
+                </div>
+              </div>
 
-        <div className='mt-5 column is-vcentered has-text-centered'>
-          <button className='button is-medium is-primary mt-6' type='submit'>
-            Sign Up
-          </button>
-          <h4 className='my-4'>-- OR --</h4>
-          <a className='button is-medium is-warning mb-4' href='/login'>
-            Log In
-          </a>
+              <div class='field'>
+                <label class='label'>Password</label>
+                <div class='control'>
+                  <input
+                    class='input'
+                    type='password'
+                    name='password'
+                    placeholder='********'
+                    value={formState.password}
+                    onChange={handleChange}
+                  />
+                </div>
+              </div>
+
+              <div class='field'>
+                <label class='label'>Re-Enter Password</label>
+                <div class='control'>
+                  <input
+                    class='input'
+                    type='password'
+                    name='confPassword'
+                    placeholder='********'
+                    value={formState.confPassword}
+                    onChange={handleChange}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className='register-button-container'>
+              <button className='register-button' type='submit'>
+                Register
+              </button>
+              <div className="divider"></div>
+              <p className='my-0'>Already have an account?</p>
+              <a href='login'>
+                Login
+              </a>
+            </div>
+
+            <div className='column is-2-desktop is-1-tablet' />
+          </form>
         </div>
-
-        <div className='column is-2-desktop is-1-tablet' />
-      </form>
+      </div>
     </div>
   );
 }
