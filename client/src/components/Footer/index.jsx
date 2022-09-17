@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer id='footer'>
       {/* <div id='darkModeCont' className='field'> */}
-      <div id='darkModeSwitchDiv' className='field mt-2'>
+      {/* <div id='darkModeSwitchDiv' className='field mt-2'>
         <input
           id='darkModeSwitch'
           type='checkbox'
@@ -21,7 +21,8 @@ export default function Footer() {
           onClick={toggleDarkMode}
         />
         <label htmlFor='darkModeSwitch'>Dark Mode</label>
-      </div>
+      </div> */}
+      <p>ⓒ 2022 ranDUMBizer Team</p>
       {/* </div> */}
     </footer>
   );
