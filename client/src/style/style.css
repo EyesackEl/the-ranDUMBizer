@@ -8,6 +8,11 @@
     --purple: #504771;
     --purple-light: #7e759d;
 }
+input:focus {
+    outline: none !important;
+    border: 1px solid var(--off-black) !important;
+    box-shadow: 0px 0px 2px 2px #9f97bd !important;
+}
 body {
     font-family: 'Poppins' !important;
     color: var(--off-black) !important;
@@ -118,7 +123,7 @@ h6 {
     background: rgba(255, 255, 255, 0);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.4234068627450981) 50%, rgba(255,255,255,0) 100%);
 }
-.navbar-login {
+.navbar-login, .navbar-logout {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,15 +139,15 @@ h6 {
     border-radius: 5px;
     transition: filter 0.2s;
 }
-.navbar-login:hover {
+.navbar-login:hover, .navbar-logout:hover {
     filter: brightness(1.2);
     text-decoration: none !important;
     color: var(--off-white) !important;
 }
-.navbar-login:active {
+.navbar-login:active, .navbar-logout:active {
     filter: brightness(1.4);
 }
-.navbar-login:focus {
+.navbar-login:focus, .navbar-logout:focus {
     outline: none;
 }
 

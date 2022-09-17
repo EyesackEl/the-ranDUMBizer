@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { useQuery } from '@apollo/client';
+import { QUERY_ALL_LISTS } from '../../utils/queries';
 import ListCard from '../cards/listCard';
 import '../../style/Home/home.css';
 import diceLogo from '../assets/dice.png';
 
 export default function Home() {
+  const { loading, data } = useQuery(QUERY_ALL_LISTS);
   const renderSearchLabel = () => {
     let randNum = Math.floor(Math.random() * 10);
 
@@ -25,6 +28,21 @@ export default function Home() {
     }
   };
 
+  const GetRandomList = () => {
+    let pubLists = [];
+
+    if (!loading) {
+      data.lists.map((list) => {
+        if (list.public) {
+          pubLists.push(list);
+        }
+      });
+    }
+    let randNum = Math.floor(Math.random() * pubLists.length);
+    let randListId = pubLists[randNum]._id;
+    return `/list/${randListId}`;
+  };
+
   return (
     <div>
       <div className='home-container section'>
@@ -42,7 +60,11 @@ export default function Home() {
 
         <p>or...</p>
 
-        <a className=''>Take me to a random list</a>
+        {loading ? (
+          <div />
+        ) : (
+          <a href={GetRandomList()}>Take me to a random list</a>
+        )}
       </div>
 
       {/* <div className='section columns is-centered is-mobile'>

@@ -1,0 +1,19 @@
+footer {
+    height: 60px;
+    position: relative;
+    background-color: var(--purple-light) !important;
+}
+
+/* #darkModeCont {
+    height: 80px;
+    width: 100vw;
+    position: relative;
+    background-color: var(--purple-light) !important;
+    border: 5px dotted red;
+} */
+
+#darkModeSwitchDiv {
+    width: 160px;
+    position: absolute;
+    right: 0px;
+}

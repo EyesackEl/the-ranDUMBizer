@@ -190,7 +190,7 @@ export default function List() {
           </button>
         </div>
         <button
-          className='random-button'
+          className='mt-1 button is-primary random-button'
           onClick={() => {
             let animationSlides = document.querySelectorAll('.new-slide');
             let oldSlides = document.querySelectorAll('.old-slide');
@@ -344,7 +344,7 @@ export default function List() {
             }
           }}
         >
-          porn
+          DUMB IT UP
         </button>
       </div>
     );

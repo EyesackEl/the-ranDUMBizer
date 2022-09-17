@@ -49,6 +49,9 @@ export const QUERY_ALL_LISTS = gql`
       name
       listItems
       public
+      user {
+        username
+      }
     }
   }
 `;
