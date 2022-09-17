@@ -4,7 +4,7 @@ import { useAppContext } from '../../utils/GlobalState';
 import Auth from '../../utils/auth';
 import { QUERY_ME } from '../../utils/queries';
 import ListForm from '../Listform';
-
+import diceLogo from '../assets/dice.png';
 import Card from '../cards/listCard';
 
 export default function ProfilePage() {
@@ -16,16 +16,24 @@ export default function ProfilePage() {
   });
 
   const myLists = data?.me.lists || [];
+  let first = 0
+  let second = 4
+  
 
 
   if (myLists.length > 0){
     return (
-      <div>
+      <div className='public-lists'>
         {state.isLoggedIn ? (
-          <div className='content box has-text-centered'>
-            <h1>{myProfile.data.username}'s Lists</h1>
-            <div className='columns is-centered is-multiline'>
-              {myLists.map((list) => (
+          
+              <div className="public-list-content-box">
+                <header>
+            <h1>Your Lists</h1>
+            <img src={diceLogo} alt='logo' className='public-lists-logo' />
+                  <div className="public-lists-bg"></div>
+                </header>
+                <div className='public-lists-page-container'>
+              {myLists.slice(first, second).map((list) => (
                 <Card
                   key={list._id}
                   props={list}
@@ -41,6 +49,7 @@ export default function ProfilePage() {
           </div>
         )}
       </div>
+      
     );
   } else {
     return (

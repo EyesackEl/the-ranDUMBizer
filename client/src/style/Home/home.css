@@ -30,6 +30,7 @@
     font-size: 600% !important;
     letter-spacing: 1px;
     filter: drop-shadow(0px 0px 100px rgba(255, 255, 255, 0.678));
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.281);
 }
 .home-container header h1 strong {
     letter-spacing: 3px;
@@ -40,9 +41,11 @@
     width: 375px;
     margin-top: -4%;
     margin-bottom: -3.5%;
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.219));
 }
 .search {
     width: 30%;
+    min-width: 400px;
     margin-top: 0;
     display: flex;
     flex-direction: column;

@@ -19,8 +19,22 @@ body {
 }
 main {
     background-color: var(--green-light);
+    box-shadow: inset 0px 0px 500px var(--green);
     margin-top: -70px;
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
+    overflow: wrap;
+}
+main::before {
+    content: '';
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background-image: url('../components/assets/list.png');
+    background-size: cover;
+    opacity: 20%;
+    filter: blur(3px);
 }
 h1, h2, h3, h4 {
     font-family: 'Alumni Sans Pinstripe' !important;
@@ -51,6 +65,9 @@ h6 {
     color: var(--grey-light) !important;
     margin-bottom: 50px;
     padding: .5rem calc((100vw - 1250px) / 2);
+    z-index: 199999;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.233));
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.116);
 }
 .navbar-menu {
     height: 50px !important;
@@ -123,7 +140,7 @@ h6 {
     background: rgba(255, 255, 255, 0);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.4234068627450981) 50%, rgba(255,255,255,0) 100%);
 }
-.navbar-login {
+.navbar-login, .navbar-logout {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,15 +156,15 @@ h6 {
     border-radius: 5px;
     transition: filter 0.2s;
 }
-.navbar-login:hover {
+.navbar-login:hover, .navbar-logout:hover {
     filter: brightness(1.2);
     text-decoration: none !important;
     color: var(--off-white) !important;
 }
-.navbar-login:active {
+.navbar-login:active, .navbar-logout:active {
     filter: brightness(1.4);
 }
-.navbar-login:focus {
+.navbar-login:focus, .navbar-logout:focus {
     outline: none;
 }
 
