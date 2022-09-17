@@ -96,7 +96,7 @@ export default function Contact() {
                                 </section> */}
                             </section>
                         </section>
-                        <div className="divider"></div>
+                        <div className="contact-divider"></div>
                         <h2>Back End Nerds</h2>
                         <section className='card-container'>
                             <section className="contact-card">

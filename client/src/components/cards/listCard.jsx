@@ -5,14 +5,23 @@ export default function List({ props, username }) {
   return (
     <a
       href={`/list/${props._id}`}
-      className='tagWrapper content column is-half-desktop is-10 mx-1'
+      className='list-container'
       key={props._id}
     >
-      <div>
-        <h3 id='projectName'>{props.name}</h3>
-        <p className='is-pulled-right'>
-          By: <strong>{username}</strong>
-        </p>
+      <div className="list-info">
+        <div className="list-info-header">
+        <i class="fa-regular fa-rectangle-list list-icon"></i>
+          <h2>
+            <strong>{props.name}</strong>
+          </h2>
+          <h6>Created by <a href='#' className='username'>{username}</a></h6>
+        </div> 
+        <div className="list-description-container">
+          <p><strong>Description:</strong></p>
+          <div className="list-description">
+            This list is missing a description!
+          </div>
+        </div>
       </div>
     </a>
   );

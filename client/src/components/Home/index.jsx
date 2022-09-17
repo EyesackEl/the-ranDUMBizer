@@ -8,23 +8,23 @@ import diceLogo from '../assets/dice.png';
 export default function Home() {
   const { loading, data } = useQuery(QUERY_ALL_LISTS);
   const renderSearchLabel = () => {
-    let randNum = Math.floor(Math.random() * 10);
+    let randNum = Math.floor(Math.random() * 6);
 
     switch (randNum) {
       case 1:
+        return `I've made enough of these switch cases by now. Just search for a list:`;
       case 2:
+        return `Bored? Search for a list of ways to be productive member of society:`;
       case 3:
-        return 'Too bored, but not bored enough to be productive? Search for a list:';
+        return `Search for a list - for example, a list of switch cases for this string:`
       case 4:
+        return `Search for anything. Example - "classmate's social security numbers":`;
       case 5:
+        return `Search for a list of reasons why Ryan's girlfriend hasn't left him yet. Nevermind, try searching for something else:`;
       case 6:
-        return 'Search for anything:';
-      case 7:
-      case 8:
-      case 9:
-        return `Which ${(<em>"x"</em>)} should I watch first?:`;
+        return `Find your crush's list of favorite movies so you can pretend to have something in common with them:`;
       default:
-        return 'Too bored, but not bored enough to be productive? Search for a list:';
+        return `Bored? Search for a list of ways to be productive member of society:`;
     }
   };
 
