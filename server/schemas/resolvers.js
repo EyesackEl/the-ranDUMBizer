@@ -62,6 +62,8 @@ const resolvers = {
       return list.populate('user');
     },
 
+    
+
     addUser: async (parent, { username, password }) => {
       const user = await User.create({ username, password });
       const token = signToken(user);

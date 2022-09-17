@@ -13,6 +13,8 @@ export default function List() {
     variables: { listId: listId },
   });
 
+  
+
   const listItems = data?.list.listItems || {};
   const list = data?.list || {};
   console.log(list);
@@ -98,31 +100,26 @@ export default function List() {
               <h1>slide 01</h1>
             </div>
           </div>
-
           <div className='slide' data-id={2}>
             <div className='slide-content'>
               <h1>slide 2</h1>
             </div>
           </div>
-
           <div className='slide' data-id={3}>
             <div className='slide-content'>
               <h1>slide 3</h1>
             </div>
           </div>
-
           <div className='slide' data-id={4}>
             <div className='slide-content'>
               <h1>slide 4</h1>
             </div>
           </div>
-
           <div className='slide' data-id={5}>
             <div className='slide-content'>
               <h1>slide 5</h1>
             </div>
           </div>
-
           <div className='slide' data-id={6}>
             <div className='slide-content'>
               <h1>slide 6</h1>

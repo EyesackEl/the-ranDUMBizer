@@ -46,14 +46,3 @@ export const ADD_LIST = gql`
 
 `;
 
-const DELETE_LIST = gql`
-  mutation deleteUser($id: ID!) {
-    deleteUser(_id: $id){
-      where: {
-        _id: {
-          _id: $id
-        }
-      }
-    }
-  }
-`
