@@ -18,7 +18,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![The RanDUMBizer Screen Shot][product-screenshot]](https://the-randumbizer.herokuapp.com/)
 
  The RanDUMBizer - the next generation of problem solving. Free up valuable time spent making decisions and let our implementation of
  math.random() do it for you!
@@ -68,6 +68,12 @@ Project Link: https://github.com/EyesackEl/the-ranDUMBizer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://user-images.githubusercontent.com/101996599/190882799-7a2fe394-a9f8-4b7d-9689-a87c3860a49e.JPG
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+
+
+
+
+
+
