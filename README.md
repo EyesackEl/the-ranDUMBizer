@@ -10,7 +10,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#Deployed Application">Deployed Application</a></li>
+    <li><a href="#deployment">Deployed Application</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -27,14 +27,30 @@
 
 ### Built With
 
-* [![React][React.js]][React-url]
-* Bulma
-* MongoDB
-* GraphQL
-* JWT
-* Express.js
-* Node.js
-* Apollo
+<table>
+
+<tr>
+<td>
+
+- [![React][React.js]][React-url]
+- [![Bulma](https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white)](https://bulma.io/)
+- [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+- [![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
+
+</td>
+<td>
+
+- [![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)](https://jwt.io/)
+- [![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/)
+- [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+- [![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)](https://www.apollographql.com/)
+
+</td>
+</tr>
+</table>
+
+
+
 
 <p align="right">(<a href="#the-ranDUMBizer">back to top</a>)</p>
 
@@ -44,7 +60,7 @@ This application can be used to make, store, and share user-generated lists of i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Deployed Application
+## Deployment
 
 [Live Heroku Deployment](https://the-randumbizer.herokuapp.com/)
 
