@@ -110,9 +110,8 @@ export default function Contact() {
                                 </div>
 
                                 <div className="contact-info">
-                                    <p className='phub'>Porn<div className="hub">hub</div></p>
                                     <h4><strong>Matthew Davis</strong></h4>
-                                    <p className='matthew'>PornHub Premium</p>
+                                    <p className='matthew'>Server Lead</p>
                                 </div>
                                 {/* <h4>Matthaiah</h4>
                                 <section className="contactGroup">
